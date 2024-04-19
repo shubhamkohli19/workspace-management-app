@@ -1,0 +1,48 @@
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\appsettings.json
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Workspace Management App.exe
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Workspace Management App.deps.json
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Workspace Management App.runtimeconfig.json
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Workspace Management App.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Workspace Management App.pdb
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Dapper.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.csproj.AssemblyReference.cache
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.AssemblyInfoInputs.cache
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.AssemblyInfo.cs
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.sourcelink.json
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets\msbuild.Workspace Management App.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets\msbuild.build.Workspace Management App.props
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Workspace Management App.props
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Workspace Management App.props
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\scopedcss\bundle\Workspace Management App.styles.css
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.csproj.CopyComplete
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\refint\Workspace Management App.dll
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.pdb
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.genruntimeconfig.cache
+C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\ref\Workspace Management App.dll
