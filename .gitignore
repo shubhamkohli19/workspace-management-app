@@ -40,5 +40,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+<<<<<<< HEAD
 Backend/Workspace Management App/.vs/Workspace Management App/FileContentIndex/29b2ece8-f34d-4e3b-8cc6-c4b7e81be986.vsidx
 Backend/Workspace Management App/.vs/Workspace Management App/FileContentIndex/e5542365-0f44-41dd-a11c-c5865391e77b.vsidx
+=======
+Backend/Workspace Management App/.vs/Workspace Management App/FileContentIndex/e14e160f-2824-438e-a13a-f837d0e840bf.vsidx
+>>>>>>> 8e2c88dc32b37ce390e85c7f760ea23351436a3f
