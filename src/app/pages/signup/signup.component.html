@@ -1,1 +1,35 @@
-<p>signup works!</p>
+<div>
+    <h2>Sign Up</h2>
+    <form (ngSubmit)="signupUser()"
+    [formGroup]="postUsers">
+      <div>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" required formControlName="firstName">
+      </div>
+      <div>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required formControlName="lastName">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required formControlName="email">
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phoneNumber" name="phone" required formControlName="phoneNumber">
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required formControlName="password">
+      </div>
+      <div>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required formControlName="confirmPassword">
+        <div *ngIf="passwordsDoNotMatch" class="error">Passwords do not match</div>
+      </div>
+      <div>
+        <button type="submit">Sign Up</button>
+      </div>
+    </form>
+  </div>
+  
