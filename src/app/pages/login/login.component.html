@@ -1,1 +1,28 @@
-<p>login works!</p>
+<div class="container">
+    <h2 class="text-center mt-5">Login to Crafters Corner</h2>
+
+    <form class="mt-5" [formGroup]="loginForm" (ngSubmit)="login()">
+        <div class="form-group">
+            <label class="form-label">Email:</label>
+            <input type="email" class="form-control" formControlName="email" placeholder="Enter email">
+            <small *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched" class="text-danger">
+                Email is required.
+            </small>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Password:</label>
+            <input type="password" class="form-control" formControlName="password" placeholder="Enter password">
+            <small *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched" class="text-danger">
+                Password is required.
+            </small>
+        </div>
+        <button type="submit" class="btn btn-sm btn-primary">Login</button>
+    </form>
+
+    <div class="text-center mt-3">
+        <p>Don't have an account?
+            <a routerLink="/signup" class="me-3">Sign up </a>
+        </p>
+    </div>
+</div>
