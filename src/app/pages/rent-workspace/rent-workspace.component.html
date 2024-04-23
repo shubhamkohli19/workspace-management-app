@@ -1,1 +1,32 @@
-<p>rent-workspace works!</p>
+
+<h2>Rental Form</h2>
+
+<form (ngSubmit)="submitForm()" #rentalForm="ngForm">
+  <div>
+    <label for="location">Location Name:</label><br>
+    <select name="location" id="location" [(ngModel)]="formData.location" required>
+      <option *ngFor="let location of locations" [value]="location">{{ location }}</option>
+    </select>
+  </div>
+  <br>
+  <div>
+    <label for="rentDate">Rent Date:</label><br>
+    <input type="date" id="rentDate" name="rentDate" [(ngModel)]="formData.rentDate" [min]="today" required>
+  </div>
+  <br>
+  <div>
+    <label for="returnDate">Expected Return Date:</label><br>
+    <input type="date" id="returnDate" name="returnDate" [(ngModel)]="formData.returnDate" [min]="formData.rentDate" required>
+  </div>
+  <br>
+  <div>
+    <label for="assets">Select Assets:</label><br>
+    <select name="assets" id="assets" [(ngModel)]="formData.selectedAssets" multiple required>
+      <option *ngFor="let asset of assets" [value]="asset">{{ asset }}</option>
+    </select>
+  </div>
+  <br>
+  <div>
+    <button type="submit" [disabled]="!rentalForm.valid">Submit</button>
+  </div>
+</form>
