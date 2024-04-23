@@ -13,6 +13,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SignupService } from './services/signup.service';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginService } from './services/login.service';
+import { SelectServiceComponent } from './pages/select-service/select-service.component';
+import { RentWorkspaceComponent } from './pages/rent-workspace/rent-workspace.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { LoginService } from './services/login.service';
     HomepageComponent,
     IntroductionComponent,
     FeaturesComponent,
-    FooterComponent
+    FooterComponent,
+    SelectServiceComponent,
+    RentWorkspaceComponent
   ],
   imports: [
     BrowserModule,
