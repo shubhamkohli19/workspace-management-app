@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-select-service',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './select-service.component.css'
 })
 export class SelectServiceComponent {
+
+  constructor(private router: Router){}
+
+  SelectedService(str: string){
+    this.router.navigate(['/rent-workspace'],  { state: { 'select-service': str } });
+  }
 
 }

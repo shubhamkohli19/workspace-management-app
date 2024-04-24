@@ -18,7 +18,9 @@ export class LoginService {
     this.httpClient.post<any>(`${API_BASE_URL}/postUser`, login).subscribe
       (response => {
         if (response && response.token) {
+          console.log(response);
           localStorage.setItem('token', response.token);
+          localStorage.setItem('email', response.userData.email);
           this.router.navigate(['/homepage']);
         }
       }, error => {
