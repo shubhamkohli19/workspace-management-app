@@ -20,7 +20,7 @@
   <br>
   <div>
     <label for="assets">Select Assets:</label><br>
-    <select name="assets" id="assets" [(ngModel)]="formData.selectedAssets" multiple required>
+    <select name="assets" id="assets" [(ngModel)]="formData.asset"  required>
       <option *ngFor="let asset of assets" [value]="asset">{{ asset }}</option>
     </select>
   </div>
