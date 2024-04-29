@@ -5,14 +5,16 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { SelectServiceComponent } from './pages/select-service/select-service.component';
 import { RentWorkspaceComponent } from './pages/rent-workspace/rent-workspace.component';
+import { AuthGuard } from './guards/auth-guard';
+import { NotAuthGuard } from './guards/not-auth-guard';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
-  { path: 'login', component: LoginComponent },
-  { path: 'signup', component: SignupComponent },
+  { path: 'login', component: LoginComponent , canActivate: [NotAuthGuard]},
+  { path: 'signup', component: SignupComponent , canActivate: [NotAuthGuard]},
   { path: 'homepage', component: HomepageComponent },
-  { path: 'select-service', component: SelectServiceComponent },
-  { path: 'rent-workspace', component: RentWorkspaceComponent }
+  { path: 'select-service', component: SelectServiceComponent, canActivate: [AuthGuard] },
+  { path: 'rent-workspace', component: RentWorkspaceComponent, canActivate: [AuthGuard] }
 ];
 
 @NgModule({
@@ -20,4 +22,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 
-export class AppRoutingModule { }
+export class AppRoutingModule {}

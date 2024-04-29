@@ -1,2 +1,5 @@
-<app-navbar></app-navbar>
+<ng-container *ngIf="!isAttemptingRegistration()">
+    <app-navbar></app-navbar>
+</ng-container>
 <router-outlet></router-outlet>
+  

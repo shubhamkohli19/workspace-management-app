@@ -30,7 +30,7 @@ namespace community_workshop.Controllers
 
           string query = @"INSERT INTO rentDetails (service, location, rentDate, returnDate, assets, status, email)
                              VALUES (@service, @location, @rentDate, @returnDate, @assets, @status, @email);
-                             SELECT SCOPE_IDENTITY();"; // Query to insert a new rent detail and retrieve the generated id
+                             SELECT SCOPE_IDENTITY();";
 
           using (SqlCommand command = new SqlCommand(query, connection))
           {
