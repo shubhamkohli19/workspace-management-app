@@ -28,9 +28,7 @@ namespace community_workshop.Controllers
         {
           connection.Open();
 
-          string query = @"INSERT INTO rentDetails (service, location, rentDate, returnDate, assets, status, email)
-                             VALUES (@service, @location, @rentDate, @returnDate, @assets, @status, @email);
-                             SELECT SCOPE_IDENTITY();";
+          string query = @"EXEC AddRentDetails @service = @service, @location = @location, @rentDate = @rentDate, @returnDate = @returnDate, @assets = @assets, @email = @email";
 
           using (SqlCommand command = new SqlCommand(query, connection))
           {

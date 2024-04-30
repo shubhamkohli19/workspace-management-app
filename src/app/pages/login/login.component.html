@@ -1,28 +1,58 @@
-<div class="container">
-    <h2 class="text-center mt-5">Login to Crafters Corner</h2>
-
-    <form class="mt-5" [formGroup]="loginForm" (ngSubmit)="login()">
-        <div class="form-group">
-            <label class="form-label">Email:</label>
-            <input type="email" class="form-control" formControlName="email" placeholder="Enter email">
-            <small *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched" class="text-danger">
-                Email is required.
-            </small>
-        </div>
-
-        <div class="form-group">
-            <label class="form-label">Password:</label>
-            <input type="password" class="form-control" formControlName="password" placeholder="Enter password">
-            <small *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched" class="text-danger">
-                Password is required.
-            </small>
-        </div>
-        <button type="submit" class="btn btn-sm btn-primary">Login</button>
-    </form>
-
-    <div class="text-center mt-3">
-        <p>Don't have an account?
-            <a routerLink="/signup" class="me-3">Sign up </a>
-        </p>
+<div class="background">
+  <div class="container">
+    <div class="section">
+      <div class="title">
+        <h1>Crafter's Corner</h1>
+        <p>Where Creativity Meets Community</p>
+      </div>
+      <div class="collage"></div>
     </div>
+    <div class="container2">
+    
+      <header>
+        <h2>Login</h2>
+        <p>👋Join the Community</p>
+      </header>
+      <form (ngSubmit)="login()" [formGroup]="loginForm" class="form">
+        <div class="input-box">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Email"
+            required
+            formControlName="email"
+          />
+        </div>
+        <small
+          *ngIf="
+            loginForm.get('email')?.invalid && loginForm.get('email')?.touched
+          "
+          class="text-danger"
+        >
+          Email is required.
+        </small>
+        <div class="input-box">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+            formControlName="password"
+          />
+        </div>
+        <small *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched" class="text-danger">
+            Password is required.
+        </small>
+        <div>
+          <button type="submit">Login</button>
+        </div>
+        <div class="option">
+          Don't have an account?
+          <span class="link" (click)="navigateToSignup()">Signup</span>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>

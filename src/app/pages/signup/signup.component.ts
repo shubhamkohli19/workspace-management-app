@@ -33,6 +33,10 @@ export class SignupComponent {
     return password === confirmPassword ? null : { notSame: true };
   }
 
+  navigateToLogin(){
+    this.router.navigate(['login']);
+  }
+
   confirmPassword = '';
   passwordsDoNotMatch = false;
 

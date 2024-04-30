@@ -8,7 +8,6 @@ namespace Workspace_Management_App.Interface
     public DateTime rentDate { get; set; }
     public DateTime returnDate { get; set; }
     public string assets { get; set; }
-    public string status { get; set; }
     public string email { get; set; }
   }
 }

@@ -1,4 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .error {
     color: red;
+}
+
+.background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #440a0a;
+}
+
+.container{
+  display: flex;
+  width: 70vw;
+  height: 80vh;
+  box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.1);
+}
+
+.section{
+  width: 55%;
+  height: 100%;
+}
+
+.title{
+  width: full;
+  height: 20%;
+  background-color: #590e0c;
+  color: white;
+  padding: 30px;
+  padding-left: 60px;
+}
+
+.title h1{
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container2 {
+  position: relative;
+  width: 45%;
+  background: #fff;
+  padding: 35px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container2 header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+.container2 .form {
+  margin-top: 10px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 15px;
+}
+.input-box label {
+  color: #333;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #590e0c;
+}
+.form button:hover {
+  background: #410808;
+}
+
+.option{
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.link{
+  cursor: pointer;
+  color: #8e2421;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
   }
-  
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
