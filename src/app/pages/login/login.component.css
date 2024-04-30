@@ -78,6 +78,14 @@
 .input-box label {
   color: #333;
 }
+
+header p{
+  font-size: 12pt;
+}
+
+header h2{
+  font-size: 28pt;
+}
 .form :where(.input-box input, .select-box) {
   position: relative;
   height: 50px;

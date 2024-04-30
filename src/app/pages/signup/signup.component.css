@@ -99,6 +99,14 @@
 .address :where(input, .select-box) {
   margin-top: 15px;
 }
+
+header p{
+  font-size: 12pt;
+}
+
+header h2{
+  font-size: 28pt;
+}
 .form button {
   height: 55px;
   width: 100%;

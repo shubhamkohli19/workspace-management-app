@@ -11,7 +11,7 @@
     
       <header>
         <h2>Login</h2>
-        <p>👋Join the Community</p>
+        <!-- <p>👋Join the Community</p> -->
       </header>
       <form (ngSubmit)="login()" [formGroup]="loginForm" class="form">
         <div class="input-box">
@@ -19,19 +19,12 @@
             type="email"
             id="email"
             name="email"
-            placeholder="Enter Email"
+            placeholder="Email"
             required
             formControlName="email"
           />
         </div>
-        <small
-          *ngIf="
-            loginForm.get('email')?.invalid && loginForm.get('email')?.touched
-          "
-          class="text-danger"
-        >
-          Email is required.
-        </small>
+        
         <div class="input-box">
           <input
             type="password"
@@ -42,9 +35,6 @@
             formControlName="password"
           />
         </div>
-        <small *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched" class="text-danger">
-            Password is required.
-        </small>
         <div>
           <button type="submit">Login</button>
         </div>
