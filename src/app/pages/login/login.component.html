@@ -37,11 +37,13 @@
         </div>
         <div>
           <button type="submit">Login</button>
+          
         </div>
         <div class="option">
           Don't have an account?
           <span class="link" (click)="navigateToSignup()">Signup</span>
         </div>
+        <div *ngIf="loginFailed" class="error-message text-danger mt-3 text-center">Invalid credentials. Please try again.</div>
       </form>
     </div>
   </div>
