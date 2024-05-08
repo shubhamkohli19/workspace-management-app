@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shubham Kohli\\Desktop\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj": {}
+    "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shubham Kohli\\Desktop\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj": {
+    "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shubham Kohli\\Desktop\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj",
+        "projectUniqueName": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj",
         "projectName": "Workspace Management App",
-        "projectPath": "C:\\Users\\Shubham Kohli\\Desktop\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj",
+        "projectPath": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj",
         "packagesPath": "C:\\Users\\Shubham Kohli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shubham Kohli\\Desktop\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\obj\\",
+        "outputPath": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shubham Kohli\\AppData\\Roaming\\NuGet\\NuGet.Config",

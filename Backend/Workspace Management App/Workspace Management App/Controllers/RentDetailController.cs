@@ -1,7 +1,10 @@
 using Workspace_Management_App.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using System;
 using System.Data.SqlClient;
+using System.Collections.Generic;
 
 namespace community_workshop.Controllers
 {
@@ -36,9 +39,9 @@ namespace community_workshop.Controllers
             command.Parameters.AddWithValue("@location", rentDetail.location);
             command.Parameters.AddWithValue("@rentDate", rentDetail.rentDate);
             command.Parameters.AddWithValue("@returnDate", rentDetail.returnDate);
-            command.Parameters.AddWithValue("@assets", rentDetail.assets);
-            command.Parameters.AddWithValue("@status", rentDetail.status);
             command.Parameters.AddWithValue("@email", rentDetail.email);
+            string assetsString = string.Join(",", rentDetail.assets);
+            command.Parameters.AddWithValue("@assets", assetsString);
 
             int newRentDetailId = Convert.ToInt32(command.ExecuteScalar());
 
@@ -58,9 +61,7 @@ namespace community_workshop.Controllers
       {
         response = StatusCode(StatusCodes.Status500InternalServerError, $"An error occurred: {ex.Message}");
       }
-
       return response;
     }
-
   }
 }

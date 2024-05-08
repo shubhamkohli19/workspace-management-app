@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Component } from '@angular/core';
 import { RentalService } from './../../services/rentalService';
 import { RentalForm } from '../../models/rentalForm';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-rent-workspace',
@@ -30,6 +30,7 @@ export class RentWorkspaceComponent {
 
   submitForm() {
     this.formData.service = this.service;
+    debugger;
     console.log(this.formData);
 
     const rentData: RentalForm = {

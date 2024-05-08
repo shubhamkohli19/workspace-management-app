@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Workspace Management App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39c304faa9fd2328db69779c790e24e15adbc1ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21e3bb3696f8b83da7628ad729160676520504ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Workspace Management App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Workspace Management App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
