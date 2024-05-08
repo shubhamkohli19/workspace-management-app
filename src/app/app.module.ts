@@ -16,6 +16,7 @@ import { LoginService } from './services/login.service';
 import { SelectServiceComponent } from './pages/select-service/select-service.component';
 import { RentWorkspaceComponent } from './pages/rent-workspace/rent-workspace.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { SelectLocationComponent } from './select-location/select-location.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     FeaturesComponent,
     FooterComponent,
     SelectServiceComponent,
-    RentWorkspaceComponent
+    RentWorkspaceComponent,
+    SelectLocationComponent
   ],
   imports: [
     BrowserModule,

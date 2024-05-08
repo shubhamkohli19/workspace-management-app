@@ -11,7 +11,6 @@ export class SelectServiceComponent {
   constructor(private router: Router){}
 
   SelectedService(str: string){
-    this.router.navigate(['/rent-workspace'],  { state: { 'select-service': str } });
+    this.router.navigate(['/select-location'],  { state: { 'select-service' : str } });
   }
-
 }

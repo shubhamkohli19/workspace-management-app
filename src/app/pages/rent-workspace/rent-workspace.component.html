@@ -1,31 +1,51 @@
 <h2>Rental Form</h2>
 
+<div>
+  <label for="totalAmount">Total Amount:</label><br>
+  <input type="text" id="totalAmount" name="totalAmount" [(ngModel)]="totalAmount" disabled>
+</div>
+<br>
+
 <form (ngSubmit)="submitForm()" #rentalForm="ngForm">
   <div>
+    <label for="service">Service:</label><br>
+    <input type="text" id="service" name="service" [(ngModel)]="service" disabled>
+  </div>
+  <br>
+  <div>
     <label for="location">Location Name:</label><br>
-    <select name="location" id="location" [(ngModel)]="formData.location" required>
-      <option *ngFor="let location of locations" [value]="location">{{ location }}</option>
+    <input type="text" id="location" name="location" [(ngModel)]="location" disabled>
+  </div>
+  <br>
+  <div>
+    <label for="workspaceSize">Workspace Size:</label><br>
+    <select name="workspaceSize" id="workspaceSize" [(ngModel)]="formData.workspaceSize" (change)="updateTotalAmount()" [disabled]="!service || !location" required>
+      <option value="" disabled selected>Select workspace size</option>
+      <option value="small">Small - ${{ rentAmounts['small'] }}</option>
+      <option value="medium">Medium - ${{ rentAmounts['medium'] }}</option>
+      <option value="large">Large - ${{ rentAmounts['large'] }}</option>
     </select>
   </div>
   <br>
-  <div>
-    <label for="rentDate">Rent Date:</label><br>
-    <input type="date" id="rentDate" name="rentDate" [(ngModel)]="formData.rentDate" [min]="today" required>
-  </div>
-  <br>
-  <div>
-    <label for="returnDate">Expected Return Date:</label><br>
-    <input type="date" id="returnDate" name="returnDate" [(ngModel)]="formData.returnDate" [min]="formData.rentDate" required>
-  </div>
-  <br>
-  <div>
+  <div *ngIf="formData.workspaceSize">
     <label for="assets">Select Assets:</label><br>
-    <select name="assets" id="assets" [(ngModel)]="formData.asset" multiple required>
-      <option *ngFor="let asset of assets" [value]="asset">{{ asset }}</option>
+    <select name="assets" id="assets" [(ngModel)]="formData.asset" (change)="updateTotalAmount()" [disabled]="!formData.workspaceSize" multiple required>
+      <option *ngFor="let asset of assetKeys" [value]="asset">{{ asset }} - ${{ assetAmounts[asset] }}</option>
     </select>
   </div>
   <br>
-  <div>
+  <div *ngIf="formData.asset">
+    <label for="rentDate">Rent Date:</label><br>
+    <input type="date" id="rentDate" name="rentDate" [(ngModel)]="formData.rentDate" [min]="today" [disabled]="!formData.asset" required>
+  </div>
+  <br>
+  <div *ngIf="formData.rentDate">
+    <label for="returnDate">Expected Return Date:</label><br>
+    <input type="date" id="returnDate" name="returnDate" [(ngModel)]="formData.returnDate" (change)="finalTotalAmount()" [min]="formData.rentDate" [disabled]="!formData.rentDate" required>
+  </div>
+  <p *ngIf="formData.returnDate">Number of Days: {{totalDays}}</p>
+  <br>  
+  <div *ngIf="formData.returnDate">
     <button type="submit" [disabled]="!rentalForm.valid">Submit</button>
   </div>
 </form>

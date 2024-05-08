@@ -46,3 +46,14 @@ C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Manage
 C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.pdb
 C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.genruntimeconfig.cache
 C:\Users\Shubham Kohli\Desktop\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\ref\Workspace Management App.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.csproj.AssemblyReference.cache
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.AssemblyInfoInputs.cache
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.AssemblyInfo.cs
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.csproj.CoreCompileInputs.cache
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.MvcApplicationPartsAssemblyInfo.cs
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.MvcApplicationPartsAssemblyInfo.cache
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.sourcelink.json
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\refint\Workspace Management App.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.pdb
