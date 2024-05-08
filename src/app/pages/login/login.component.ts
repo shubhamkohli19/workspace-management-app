@@ -12,6 +12,7 @@ import { Router } from '@angular/router';
 
 export class LoginComponent {
   loginForm: FormGroup;
+  loginFailed: boolean = false;
 
   constructor(private formBuilder: FormBuilder,
     private loginService: LoginService, private router: Router) {
@@ -27,10 +28,12 @@ export class LoginComponent {
 
   login(): void {
     if (this.loginForm.invalid) {
+      this.loginFailed = true;
       return;
     }
 
     const login: Login = this.loginForm.value;
     this.loginService.login(login);
+    this.loginFailed = false;
   }
 }

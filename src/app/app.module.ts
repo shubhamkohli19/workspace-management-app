@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginService } from './services/login.service';
 import { SelectServiceComponent } from './pages/select-service/select-service.component';
 import { RentWorkspaceComponent } from './pages/rent-workspace/rent-workspace.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { RentWorkspaceComponent } from './pages/rent-workspace/rent-workspace.co
     HttpClientModule
   ],
   providers: [SignupService,
-    LoginService
+    LoginService,
+    provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]
 })

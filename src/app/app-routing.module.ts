@@ -9,7 +9,7 @@ import { AuthGuard } from './guards/auth-guard';
 import { NotAuthGuard } from './guards/not-auth-guard';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: '', redirectTo: 'homepage', pathMatch: 'full' },
   { path: 'login', component: LoginComponent , canActivate: [NotAuthGuard]},
   { path: 'signup', component: SignupComponent , canActivate: [NotAuthGuard]},
   { path: 'homepage', component: HomepageComponent },
