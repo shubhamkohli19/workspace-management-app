@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using System;
+using System.Data;
 using System.Data.SqlClient;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 
 namespace community_workshop.Controllers
@@ -31,7 +33,13 @@ namespace community_workshop.Controllers
         {
           connection.Open();
 
-          string query = @"EXEC AddRentDetails @service = @service, @location = @location, @rentDate = @rentDate, @returnDate = @returnDate, @assets = @assets, @email = @email";
+          string query = @"EXEC AddRentDetails 
+                                    @service,
+                                    @location,
+                                    @rentDate,
+                                    @returnDate,
+                                    @assets,
+                                    @email";
 
           using (SqlCommand command = new SqlCommand(query, connection))
           {
@@ -40,8 +48,7 @@ namespace community_workshop.Controllers
             command.Parameters.AddWithValue("@rentDate", rentDetail.rentDate);
             command.Parameters.AddWithValue("@returnDate", rentDetail.returnDate);
             command.Parameters.AddWithValue("@email", rentDetail.email);
-            string assetsString = string.Join(",", rentDetail.assets);
-            command.Parameters.AddWithValue("@assets", assetsString);
+            command.Parameters.Add("@assets", SqlDbType.NVarChar).Value = JsonConvert.SerializeObject(rentDetail.assets);
 
             int newRentDetailId = Convert.ToInt32(command.ExecuteScalar());
 

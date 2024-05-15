@@ -44,23 +44,34 @@ export class RentWorkspaceComponent {
 
   submitForm() {
     this.formData.service = this.service;
-    console.log(this.formData);
+    let assetsString = this.formData.asset.join(', ');
 
     const rentData: RentalForm = {
       id: 0,
       service: this.formData.service,
-      location: this.formData.location,
+      location: this.location,
       rentDate: this.formData.rentDate,
       returnDate: this.formData.returnDate,
-      assets: this.formData.asset,
+      assets: assetsString,
       status: 'Pending',
       email: localStorage.getItem('email')
     };
+
+    const billResponse = {
+      service: this.formData.service,
+      location: this.location,
+      totalDays: this.totalDays,
+      assets: this.formData.asset,
+      email: localStorage.getItem('email'),
+      totalAmount: this.totalAmount
+    }
 
     console.log(rentData);
     this.rentalService.submitRentalForm(rentData).subscribe(
       response => {
         console.log('Form submitted successfully:', response);
+        this.router.navigate(['bill-payment'], { state: { 'bill': billResponse}})
+        console.log(billResponse, "sent")
       },
       error => {
         console.error('Error submitting form:', error);
@@ -86,10 +97,8 @@ export class RentWorkspaceComponent {
   finalTotalAmount() {
     const rentDate = new Date(this.formData.rentDate);
     const returnDate = new Date(this.formData.returnDate);
-    console.log(rentDate, returnDate)
     const diffInTime = returnDate.getTime() - rentDate.getTime();
     this.totalDays = (Math.ceil(diffInTime / (1000 * 60 * 60 * 24))) + 1;
-    console.log(this.totalDays);
     this.totalAmount *= this.totalDays;
   }
 }

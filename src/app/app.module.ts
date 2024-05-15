@@ -16,7 +16,8 @@ import { LoginService } from './services/login.service';
 import { SelectServiceComponent } from './pages/select-service/select-service.component';
 import { RentWorkspaceComponent } from './pages/rent-workspace/rent-workspace.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { SelectLocationComponent } from './select-location/select-location.component';
+import { SelectLocationComponent } from './pages/select-location/select-location.component';
+import { BillPaymentComponent } from './pages/bill-payment/bill-payment.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SelectLocationComponent } from './select-location/select-location.compo
     FooterComponent,
     SelectServiceComponent,
     RentWorkspaceComponent,
-    SelectLocationComponent
+    SelectLocationComponent,
+    BillPaymentComponent
   ],
   imports: [
     BrowserModule,

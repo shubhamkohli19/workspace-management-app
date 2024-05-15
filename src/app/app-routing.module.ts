@@ -7,7 +7,8 @@ import { SelectServiceComponent } from './pages/select-service/select-service.co
 import { RentWorkspaceComponent } from './pages/rent-workspace/rent-workspace.component';
 import { AuthGuard } from './guards/auth-guard';
 import { NotAuthGuard } from './guards/not-auth-guard';
-import { SelectLocationComponent } from './select-location/select-location.component';
+import { SelectLocationComponent } from './pages/select-location/select-location.component';
+import { BillPaymentComponent } from './pages/bill-payment/bill-payment.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'homepage', pathMatch: 'full' },
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'homepage', component: HomepageComponent },
   { path: 'select-service', component: SelectServiceComponent, canActivate: [AuthGuard] },
   { path: 'rent-workspace', component: RentWorkspaceComponent, canActivate: [AuthGuard] },
-  { path: 'select-location', component: SelectLocationComponent, canActivate: [AuthGuard] }
+  { path: 'select-location', component: SelectLocationComponent, canActivate: [AuthGuard] },
+  { path: 'bill-payment', component: BillPaymentComponent, canActivate: [AuthGuard]}
 ];
 
 @NgModule({

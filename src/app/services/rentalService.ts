@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { RentalForm } from '../models/rentalForm';
+import { HttpClient } from '@angular/common/http';
 
-// const API_BASE_URL: string = "https://localhost:44307/api/RentDetail";
-const API_BASE_URL: string = "https://localhost:44374/api/RentDetail";
+const API_BASE_URL: string = "https://localhost:44307/api/RentDetail";
+// const API_BASE_URL: string = "https://localhost:44374/api/RentDetail";
 
 @Injectable({
   providedIn: 'root'

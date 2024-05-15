@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P1Dq70oGIQew0fxV6tnF6HzU4IeZ5s/numc8wtorjNg+fn0BSiea9jZQd+0quD6Irt+IjAUp6je/YAUIOQ663A==",
+  "dgSpecHash": "0ycKyWLQz9sfacIgbHiqc6AT2jmboyGJmBx2Y0mkB1QG6BUVJOYtVIisPoPhCPxl/OCyRxuFP1gqmS3SVBFyiw==",
   "success": true,
   "projectFilePath": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\Shubham Kohli\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Shubham Kohli\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Shubham Kohli\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Shubham Kohli\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Shubham Kohli\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\Shubham Kohli\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Shubham Kohli\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
