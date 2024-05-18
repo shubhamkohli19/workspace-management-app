@@ -18,6 +18,9 @@ import { RentWorkspaceComponent } from './pages/rent-workspace/rent-workspace.co
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { SelectLocationComponent } from './pages/select-location/select-location.component';
 import { BillPaymentComponent } from './pages/bill-payment/bill-payment.component';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { CancelPaymentComponent } from './components/cancel-payment/cancel-payment.component';
+import { SuccessPaymentComponent } from './components/success-payment/success-payment.component';
 
 @NgModule({
   declarations: [
@@ -32,14 +35,17 @@ import { BillPaymentComponent } from './pages/bill-payment/bill-payment.componen
     SelectServiceComponent,
     RentWorkspaceComponent,
     SelectLocationComponent,
-    BillPaymentComponent
+    BillPaymentComponent,
+    CheckoutComponent,
+    CancelPaymentComponent,
+    SuccessPaymentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [SignupService,
     LoginService,

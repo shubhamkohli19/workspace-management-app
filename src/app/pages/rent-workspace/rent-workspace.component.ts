@@ -70,11 +70,12 @@ export class RentWorkspaceComponent {
     this.rentalService.submitRentalForm(rentData).subscribe(
       response => {
         console.log('Form submitted successfully:', response);
-        this.router.navigate(['bill-payment'], { state: { 'bill': billResponse}})
+        this.router.navigate(['checkout'], { queryParams: { bill: JSON.stringify(billResponse) }});
         console.log(billResponse, "sent")
       },
       error => {
         console.error('Error submitting form:', error);
+        console.log(rentData);
       }
     );
   }

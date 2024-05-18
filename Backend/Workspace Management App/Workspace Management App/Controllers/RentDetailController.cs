@@ -33,13 +33,7 @@ namespace community_workshop.Controllers
         {
           connection.Open();
 
-          string query = @"EXEC AddRentDetails 
-                                    @service,
-                                    @location,
-                                    @rentDate,
-                                    @returnDate,
-                                    @assets,
-                                    @email";
+          string query = @"EXEC AddRentDetails @service, @location, @rentDate, @returnDate, @assets, @email";
 
           using (SqlCommand command = new SqlCommand(query, connection))
           {

@@ -57,3 +57,53 @@ D:\workspace-management-app\Backend\Workspace Management App\Workspace Managemen
 D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.dll
 D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\refint\Workspace Management App.dll
 D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.pdb
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\appsettings.Development.json
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\appsettings.json
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Workspace Management App.exe
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Workspace Management App.deps.json
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Workspace Management App.runtimeconfig.json
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Workspace Management App.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Workspace Management App.pdb
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Dapper.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Stripe.net.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets.build.json
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets.development.json
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets\msbuild.Workspace Management App.Microsoft.AspNetCore.StaticWebAssets.props
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets\msbuild.build.Workspace Management App.props
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Workspace Management App.props
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Workspace Management App.props
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\staticwebassets.pack.json
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\scopedcss\bundle\Workspace Management App.styles.css
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspac.793CB524.Up2Date
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\Workspace Management App.genruntimeconfig.cache
+D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\obj\Debug\net8.0\ref\Workspace Management App.dll

@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workspace-management-app\\Backend\\Workspace Management App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\interface\\paymentamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\interface\\paymentamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\controllers\\rentdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\controllers\\rentdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentAmount.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\PaymentAmount.cs",
+              "RelativeDocumentMoniker": "Workspace Management App\\Interface\\PaymentAmount.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\PaymentAmount.cs",
+              "RelativeToolTip": "Workspace Management App\\Interface\\PaymentAmount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:40:24.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Workspace Management App\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Workspace Management App\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwD0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:31:04.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentDetailController.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\RentDetailController.cs",
+              "RelativeDocumentMoniker": "Workspace Management App\\Controllers\\RentDetailController.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\RentDetailController.cs",
+              "RelativeToolTip": "Workspace Management App\\Controllers\\RentDetailController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAADoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:10:49.265Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

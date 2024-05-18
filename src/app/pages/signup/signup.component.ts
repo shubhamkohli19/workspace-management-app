@@ -50,13 +50,13 @@ export class SignupComponent {
       password: this.postUsers.get('password')?.value
     }
     this.signupService.signupUser(req).subscribe(
-      (res) => {
+      (res: any) => {
         console.log(res);
         localStorage.setItem('token', res.token);
         this.router.navigate(['homepage']);
         
       },
-      (error) => {
+      (error: any) => {
         console.log(error);
       }
     )
