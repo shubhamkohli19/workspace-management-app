@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { CategoryService } from '../../services/category.service';
+import { Category } from '../../models/category';
 
 @Component({
   selector: 'app-select-service',
@@ -8,7 +10,18 @@ import { Router } from '@angular/router';
 })
 export class SelectServiceComponent {
 
-  constructor(private router: Router){}
+  categories: Category[] = [];
+  total: number = 0;
+
+  constructor(private categoryService: CategoryService, private router: Router) {}
+
+  ngOnInit(): void {
+    this.categoryService.getCategories().subscribe((data: Category[]) => {
+      this.categories = data;
+      console.log(this.categories);
+      this.total = data.length;
+    });
+  }
 
   SelectedService(str: string){
     this.router.navigate(['/select-location'],  { state: { 'select-service' : str } });
