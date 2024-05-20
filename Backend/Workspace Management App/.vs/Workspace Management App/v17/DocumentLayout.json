@@ -42,8 +42,7 @@
               "RelativeToolTip": "Workspace Management App\\Interface\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:27:39.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:27:39.902Z"
             },
             {
               "$type": "Document",
@@ -51,12 +50,11 @@
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Workspace Management App\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\CategoryController.cs*",
-              "RelativeToolTip": "Workspace Management App\\Controllers\\CategoryController.cs*",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Workspace Management App\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:22:20.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:22:20.221Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Workspace Management App\\Controllers\\PaymentController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwCcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T09:31:04.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T09:31:04.923Z"
             },
             {
               "$type": "Document",

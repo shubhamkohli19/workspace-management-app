@@ -1,14 +1,42 @@
-<h1>{{total}} Services</h1>
-<div *ngIf="categories.length > 0; else noData">
-    <div *ngFor="let category of categories">
-      <h2>{{ category.categoryName }}</h2>
-      <p>{{ category.description }}</p>
-      <p>Rating: {{ category.rating }} - {{ category.ratingWord }}</p>
-      <p>Highlights: {{ category.highlights }}</p>
-      <img width="200px" [src]="'assets/' + category.image + '.jpg'" alt="{{ category.categoryName }}">
+<div class="main">
+  <div class="filters"></div>
+  <div class="services border">
+    <h2>Our Services <span>({{ total }})</span></h2>
+    <div *ngIf="categories.length > 0; else noData">
+      <div *ngFor="let category of categories">
+        <div class="service-card">
+          <div class="card-container">
+            <div class="image">
+              <img
+                width="300px"
+                [src]="'assets/' + category.image + '.jpg'"
+                alt="{{ category.categoryName }}"
+              />
+            </div>
+            <div class="container">
+              <div class="details">
+                <div class="title">{{ category.categoryName }}</div>
+                <div class="description">{{ category.description }}</div>
+                <div class="highlights">
+                  <div
+                    *ngFor="let highlight of category.highlightsArray"
+                    class="highlight"
+                  >
+                    <span><i class="bi bi-layers"></i></span>
+                    {{ highlight }}
+                  </div>
+                  <span>+ more</span>
+                </div>
+                <div class="ratingWord">{{ category.ratingWord }}</div>
+                <div class="rating"><span>⭐ </span>{{ category.rating }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <ng-template #noData>
+      <p>No categories available.</p>
+    </ng-template>
   </div>
-  <ng-template #noData>
-    <p>No categories available.</p>
-  </ng-template>
-  
+</div>

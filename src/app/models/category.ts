@@ -6,4 +6,5 @@ export interface Category {
     ratingWord: string;
     highlights: string;
     image: string;
-  }
+    highlightsArray?: string[];
+}
