@@ -170,6 +170,11 @@ header h2 {
   text-decoration: underline;
 }
 
+.error{
+  color: red;
+  padding-top: 10px;
+}
+
 @media screen and (max-width: 500px) {
   .form .column {
     flex-wrap: wrap;
