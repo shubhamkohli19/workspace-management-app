@@ -21,22 +21,6 @@ public class PaymentController : ControllerBase
     _stripeSettings = stripeSettings.Value;
   }
 
-  [HttpPost("create-payment-intent")]
-  public async Task<ActionResult> CreatePaymentIntent([FromBody] CreatePaymentIntentRequest request)
-  {
-    var options = new PaymentIntentCreateOptions
-    {
-      Amount = request.Amount,
-      Currency = "usd",
-      PaymentMethodTypes = new List<string> { "card" },
-    };
-
-    var service = new PaymentIntentService();
-    var paymentIntent = await service.CreateAsync(options);
-
-    return Ok(new { clientSecret = paymentIntent.ClientSecret });
-  }
-
   [HttpPost("create-checkout-session")]
   public string CreateCheckoutSession([FromBody] PaymentAmount request)
   {
@@ -70,8 +54,4 @@ public class PaymentController : ControllerBase
     res = session.Url;
     return JsonConvert.SerializeObject(res);
   }
-}
-public class CreatePaymentIntentRequest
-{
-  public int Amount { get; set; }
 }
