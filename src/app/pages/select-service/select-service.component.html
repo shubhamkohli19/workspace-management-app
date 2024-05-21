@@ -1,10 +1,10 @@
 <div class="main">
   <div class="filters"></div>
   <div class="services border">
-    <h2>Our Services <span>({{ total }})</span></h2>
-    <div *ngIf="categories.length > 0; else noData">
-      <div *ngFor="let category of categories">
-        <div class="service-card">
+    <h2>Our Services <span>({{ filteredCategories.length }})</span></h2>
+    <div *ngIf="filteredCategories.length > 0; else noData">
+      <div *ngFor="let category of filteredCategories" class="loop">
+        <div class="service-card" (click)="SelectedService(category.categoryName)">
           <div class="card-container">
             <div class="image">
               <img

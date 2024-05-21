@@ -38,9 +38,6 @@
     background-color: #fff;
   }
 
-  .services h2P
-  
-  
   h1 {
     margin-bottom: 20px;
   }
@@ -50,6 +47,12 @@
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 20px;
+  }
+
+  .service-card:hover{
+    background-color: rgb(243, 243, 243);
+    transition: .2s linear;
+    cursor: pointer;
   }
   
   .card-container {
@@ -114,4 +117,8 @@
 
   .ratingWord{
     font-size: 20px;
+  }
+
+  .loop{
+    border-bottom: 1px solid gainsboro;
   }

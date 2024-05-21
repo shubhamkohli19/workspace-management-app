@@ -1,62 +1,10 @@
-<!-- <nav
-  class="navbar navbar-expand-lg navbar-light p-0 border"
-  style="background-color: #590e0c"
->
-    <a class="navbar-brand" href="#">
-      <img src="../../assets/logo.png" style="width: 175px" />
-    </a>
-
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" *ngIf="isValid()">
-            <button
-              class="btn btn-sm btn-secondary pb-2 pt-2"
-              routerLink="/select-service"
-            >
-              Rent Workspace
-            </button>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a *ngIf="!isValid()" class="nav-link" routerLink="/login">
-            <button class="btn btn-sm btn-success pb-2 pt-2">
-              <img
-                src="../../assets/user.png"
-                style="width: 30px; height: auto; margin-right: 3px"
-              />
-              Login / Signup
-            </button>
-          </a>
-          <a *ngIf="isValid()" class="nav-link">
-            <button class="btn btn-sm btn-success pb-2 pt-2" (click)="logout()">
-              Logout
-            </button>
-          </a>
-        </li>
-      </ul>
-    </div>
-</nav> -->
-
 <nav>
   <div class="navbar-content">
     <a><img src="../../assets/logoWhite.png" alt="Logo" class="logo" /></a>
-    <div class="search-box">
-      <input type="search" placeholder="Search Workspace" />
+    <form class="search-box" (submit)="onSearch()" *ngIf="SearchbarActive()">
+      <input type="search" [(ngModel)]="searchtext" name="searchtext" placeholder="Search Workspace" />
       <button class="search-button"><i class="bi bi-search"></i></button>
-    </div>
+    </form>
     <div class="buttons-container">
       <div class="buttons">
         <a *ngIf="isValid()" routerLink="/select-service" class="button-link">
@@ -64,10 +12,7 @@
         </a>
         <a *ngIf="!isValid()" class="button-link" routerLink="/login">
           <button class="btn-success navbar-button">
-            <img
-              src="../../assets/user.png"
-              style="width: 30px; height: auto; margin-right: 3px; "
-            />
+            <img src="../../assets/user.png" style="width: 30px; height: auto; margin-right: 3px; " />
             Login / Signup
           </button>
         </a>
