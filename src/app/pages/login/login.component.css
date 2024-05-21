@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .background {
@@ -22,7 +23,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../../../assets/signupBG.jpeg'); /* Replace with your image path */
+  background-image: url('../../../assets/signupBG.jpeg');
   background-size: cover;
   background-position: center;
   filter: blur(5px);
@@ -58,20 +59,17 @@
 }
 
 .subtitle {
-  font-family: "Poppins", sans-serif;
   font-size: 2rem;
   margin: 0;
 }
 
 .highlight {
-  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   font-weight: 600;
   margin: 0;
 }
 
 .title h1 {
-  font-family: "Nanum Pen Script", cursive;
   font-weight: 400;
   font-style: normal;
 }
