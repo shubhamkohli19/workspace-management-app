@@ -19,14 +19,39 @@ namespace Workspace_Management_App.Controllers
     {
       _configuration = configuration;
     }
-    private Login AuthenticateUser(Login user)
+    private (Login user, string message) AuthenticateUser(Login user)
     {
       using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
       connection.Open();
       var query = "Exec AuthenticateUser @email = @email, @password = @password";
-      var result = connection.QueryFirstOrDefault<Login>(query, new { email = user.email, password = user.password });
+      var result = connection.QueryFirstOrDefault<dynamic>(query, new { email = user.email, password = user.password });
       connection.Close();
-      return result;
+
+      if (result == null)
+      {
+        return (null, "An error occurred during authentication.");
+      }
+
+      if (result is IDictionary<string, object> resultDict && resultDict.ContainsKey("Result"))
+      {
+        int errorCode = (int)result.Result;
+        if (errorCode == 1)
+        {
+          return (null, "Email not registered yet. Please sign up first.");
+        }
+        else if (errorCode == 2)
+        {
+          return (null, "Incorrect password.");
+        }
+      }
+
+      var authenticatedUser = new Login
+      {
+        email = result.email,
+        password = result.password,
+      };
+
+      return (authenticatedUser, "Success");
     }
 
     private string GenerateToken(Login users)
@@ -58,7 +83,7 @@ namespace Workspace_Management_App.Controllers
         return BadRequest(ModelState);
       }
 
-      var authenticatedUser = AuthenticateUser(user);
+      var (authenticatedUser, message) = AuthenticateUser(user);
       if (authenticatedUser != null)
       {
         var token = GenerateToken(authenticatedUser);
@@ -69,7 +94,7 @@ namespace Workspace_Management_App.Controllers
       }
       else
       {
-        return Unauthorized();
+        return Conflict(message);
       }
     }
   }

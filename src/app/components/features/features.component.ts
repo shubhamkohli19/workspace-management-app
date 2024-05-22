@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './features.component.css'
 })
 export class FeaturesComponent {
-
+  services: string[] = ["storage", "coaching_class", "stiching", "studio"];
 }

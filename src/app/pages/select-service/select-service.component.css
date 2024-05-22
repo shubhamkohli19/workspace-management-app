@@ -1,124 +1,127 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  body {
-    line-height: 1.6;
-  }
-  
-  h2 span{
-    font-size: 22px;
-    font-weight: normal;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
 
-  h2{
-    font-weight: 800;
-  }
+body {
+  line-height: 1.6;
+}
 
-  .main {
-    padding-top: 75px;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .filters {
-    width: 25vw;
-    height: 90vh;
-    padding: 20px;
-    background-color: #f9f9f9;
-  }
-  
-  .services {
-    flex-grow: 1;
-    padding: 20px;
-    padding-top: 30px;
-    background-color: #fff;
-  }
+h2 span {
+  font-size: 22px;
+  font-weight: normal;
+}
 
-  h1 {
-    margin-bottom: 20px;
-  }
-  
-  .service-card {
-    padding: 10px;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
+h2 {
+  font-weight: 800;
+}
 
-  .service-card:hover{
-    background-color: rgb(243, 243, 243);
-    transition: .2s linear;
-    cursor: pointer;
-  }
-  
-  .card-container {
-    display: flex;
-    padding: 10px;
-  }
-  
-  .image {
-    margin: 10px;
-    margin-right: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  }
-  
-  .container {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-  }
+.main {
+  display: flex;
+  gap: 20px;
+}
 
-  .highlights{
-    display: flex;
-    gap: 20px;
-  }
-  
-  .details {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    padding: 10px;
-  }
-  
-  .details > div {
-    margin-bottom: 10px;
-  }
-  
-  .details > div:last-child {
-    margin-bottom: 0;
-  }
-  
-  .title{
-    font-size: 30px;
-    font-weight: 800;
-  }
+.filters {
+  width: 25vw;
+  height: 90vh;
+  padding: 20px;
+  background-color: #f9f9f9;
+  position: fixed;
+  border: 2px solid black;
+  overflow-y: auto;
+}
 
-  .description{
-    font-size: 20px;
-  }
+.services {
+  flex-grow: 1;
+  padding: 20px;
+  padding-top: 30px;
+  background-color: #fff;
+  margin-left: 25vw;
+}
 
-  .rating{
-    font-size: 15px;
-    background-color: #590e0c;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    color: white;
-    width: fit-content;
-    padding: 2px 4px;
-    padding-right: 6px;
-    border-radius: 4px;
-  }
+h1 {
+  margin-bottom: 20px;
+}
 
-  .ratingWord{
-    font-size: 20px;
-  }
+.service-card {
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
 
-  .loop{
-    border-bottom: 1px solid gainsboro;
-  }
+.service-card:hover {
+  background-color: rgb(243, 243, 243);
+  transition: .2s linear;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  padding: 10px;
+}
+
+.image {
+  margin: 10px;
+  margin-right: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.highlights {
+  display: flex;
+  gap: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px;
+}
+
+.details > div {
+  margin-bottom: 10px;
+}
+
+.details > div:last-child {
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.rating {
+  font-size: 15px;
+  background-color: #590e0c;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  width: fit-content;
+  padding: 2px 4px;
+  padding-right: 6px;
+  border-radius: 4px;
+}
+
+.ratingWord {
+  font-size: 20px;
+}
+
+.loop {
+  border-bottom: 1px solid gainsboro;
+}

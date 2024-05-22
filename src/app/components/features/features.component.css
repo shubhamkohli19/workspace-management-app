@@ -1,9 +1,47 @@
-.services-section {
-    background-color: #f5f5f5;
-    padding: 0 15px;
-}
-.card-img-top {
-    object-fit: cover;
+.main{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 150px;
+    color: #590e0c;
+    font-weight: 500;
+}
+
+.container{
+    width: fit-content;
+    padding: 30px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+img{
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid #590e0c;
+}
+
+.service-name{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.loop{
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid #590e0c;
+    background-color: rgb(249, 249, 249);
 }

@@ -65,7 +65,7 @@ namespace Workspace_Management_App.Controllers
         var existingUser = await connection.QueryFirstOrDefaultAsync<Signup>("EXEC CheckExistingEmail @email = @email", new { user.email });
         if (existingUser != null)
         {
-          return Conflict("Username already exists");
+          return Conflict("Email already exists");
         }
 
         await connection.ExecuteAsync("EXEC AddUser @firstName = @firstName, @lastName = @lastName, @email = @email, @phoneNumber = @phoneNumber, @password = @password", user);

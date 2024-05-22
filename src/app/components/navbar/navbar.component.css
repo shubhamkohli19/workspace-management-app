@@ -9,10 +9,9 @@
     background-color: #590e0c;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1000;
-
   }
   
   .navbar-content {
@@ -20,6 +19,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
+    padding: 0 100px;
   }
   
   .logo {
@@ -83,8 +83,15 @@
   .logout{
     background-color: #590e0c;
     color: #ffffff;
+    text-decoration: underline;
   }
 
   .rent-button{
     font-weight: 500;
+  }
+
+  .rent-button:hover{
+    scale: 105%;
+    transition: .25s linear;
+    font-weight: 600;
   }
