@@ -3,12 +3,12 @@
         <div class="title">Our Services</div>
         <div class="service-container">
             <div class="services">
-                <div *ngFor="let service of services" class="loop">
+                <div *ngFor="let category of categories" class="loop">
                     <div class="image"><img
-                        [src]="'assets/' + service + '.jpg'"
-                        alt="{{ service }}"
+                        [src]="'assets/' + category.image + '.jpg'"
+                        alt="{{ category.categoryName }}"
                       /></div>
-                    <div class="service-name">{{service | titlecase }}</div>
+                    <div class="service-name">{{ category.categoryName | titlecase }}</div>
                 </div>
             </div>
         </div>

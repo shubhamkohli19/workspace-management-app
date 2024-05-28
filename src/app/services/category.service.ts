@@ -6,9 +6,10 @@ import { Category } from '../models/category';
 @Injectable({
   providedIn: 'root'
 })
+
 export class CategoryService {
-  private apiUrl = 'https://localhost:44307/api/Categories/getServices';
-  // private apiUrl = 'https://localhost:44374/api/Categories/getServices';
+  // private apiUrl = 'https://localhost:44307/api/Categories/getServices';
+  private apiUrl = 'https://localhost:44374/api/Categories/getServices';
 
   constructor(private http: HttpClient) { }
 
