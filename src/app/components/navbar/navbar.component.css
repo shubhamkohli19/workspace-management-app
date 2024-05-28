@@ -40,13 +40,11 @@
     border-radius: 4px 0 0 4px;
     border: 1px solid #ccc;
     border-right: none;
-    border: 1px solid black;
   }
   
   .search-button {
     padding: 8px 12px;
     border-radius: 0 4px 4px 0;
-    border: 1px solid black;
     border-left: none;
     background-color: yellow;
     color: #590e0c;

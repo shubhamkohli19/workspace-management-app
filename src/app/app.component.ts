@@ -12,6 +12,6 @@ export class AppComponent {
   constructor(private router: Router) {}
   
   isAttemptingRegistration(): boolean {
-    return this.router.url === '/login' || this.router.url === '/signup';
+    return this.router.url === '/login' || this.router.url === '/signup' || this.router.url === '/rent-workspace';
   }
 }
