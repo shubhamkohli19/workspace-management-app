@@ -124,3 +124,56 @@ h1 {
 .loop {
   border-bottom: 1px solid gainsboro;
 }
+
+.filter-column{
+  padding: 5px 20px ;
+  background-color: white;
+  height: 100%;
+}
+
+.filter-title{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  border-bottom: 1px solid gainsboro;
+  padding: 10px 0 20px 0;
+  font-weight: bolder;
+}
+
+.rating-filter{
+  padding: 20px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.rating-filter-title{
+  font-size: 25px;
+}
+
+.rating-filter-option{
+  padding: 10px 20px;
+}
+
+.option{
+  display: flex;
+  gap: 5px;
+  font-weight: normal;
+  padding: 3px 0;
+}
+
+.clear-button{
+  width: 100%;
+  padding: 20px;
+}
+
+.clear-button button{
+  width: 100%;
+  border: none;
+  background-color: #590e0c;
+  color: white;
+  padding: 5px;
+}
+
+.clear-button button:hover{
+  background-color:#741511;
+  transition: .2s linear;
+}
