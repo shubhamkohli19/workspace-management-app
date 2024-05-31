@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+h2 span {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+}
+
+.filters {
+  width: 25vw;
+  height: 90vh;
+  padding: 20px;
+  background-color: #f9f9f9;
+  position: fixed;
+  overflow-y: auto;
+}
+
+.services {
+  flex-grow: 1;
+  padding: 40px;
+  padding-top: 30px;
+  background-color: #fff;
+  margin-left: 25vw;
+}
+
+.ngloop {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+  
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.details {
+  padding: 15px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.description {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.workspace {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+  .filter-column{
+    padding: 5px 20px ;
+    background-color: white;
+    height: 100%;
+  }
+  
+  .filter-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px 0 20px 0;
+    font-weight: bolder;
+  }
+  
+  .rating-filter{
+    padding: 20px;
+    border-bottom: 1px solid gainsboro;
+  }
+  
+  .rating-filter-title{
+    font-size: 25px;
+  }
+  
+  .rating-filter-option{
+    padding: 10px 20px;
+  }
+  
+  .option{
+    display: flex;
+    gap: 5px;
+    font-weight: normal;
+    padding: 3px 0;
+  }
+
+  .image{
+    padding: 10px;
+  }
+
+  .image img{
+    border-radius: 6px;
+  }
+  
+  .clear-button{
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .clear-button button{
+    width: 100%;
+    border: none;
+    background-color: #590e0c;
+    color: white;
+    padding: 5px;
+  }
+  
+  .clear-button button:hover{
+    background-color:#741511;
+    transition: .2s linear;
+  }
+
