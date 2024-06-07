@@ -44,7 +44,7 @@ import { NgSelectModule } from '@ng-select/ng-select';
     ShowcaseComponent
   ],
   imports: [
-    BrowserModule,
+  BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,

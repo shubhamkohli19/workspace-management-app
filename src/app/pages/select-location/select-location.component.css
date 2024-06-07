@@ -54,7 +54,7 @@ h2 {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   cursor: pointer;
   overflow: hidden;
-  
+
 }
 
 .service-card:hover {
@@ -97,64 +97,69 @@ h2 {
   font-weight: bold;
 }
 
-  .filter-column{
-    padding: 5px 20px ;
-    background-color: white;
-    height: 100%;
-  }
-  
-  .filter-title{
-    display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    border-bottom: 1px solid gainsboro;
-    padding: 10px 0 20px 0;
-    font-weight: bolder;
-  }
-  
-  .rating-filter{
-    padding: 20px;
-    border-bottom: 1px solid gainsboro;
-  }
-  
-  .rating-filter-title{
-    font-size: 25px;
-  }
-  
-  .rating-filter-option{
-    padding: 10px 20px;
-  }
-  
-  .option{
-    display: flex;
-    gap: 5px;
-    font-weight: normal;
-    padding: 3px 0;
-  }
+.filter-column {
+  padding: 5px 20px;
+  background-color: white;
+  height: 100%;
+}
 
-  .image{
-    padding: 10px;
-  }
+.filter-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  border-bottom: 1px solid gainsboro;
+  padding: 10px 0 20px 0;
+  font-weight: bolder;
+}
 
-  .image img{
-    border-radius: 6px;
-  }
-  
-  .clear-button{
-    width: 100%;
-    padding: 20px;
-  }
-  
-  .clear-button button{
-    width: 100%;
-    border: none;
-    background-color: #590e0c;
-    color: white;
-    padding: 5px;
-  }
-  
-  .clear-button button:hover{
-    background-color:#741511;
-    transition: .2s linear;
-  }
+.rating-filter {
+  padding: 20px;
+  border-bottom: 1px solid gainsboro;
+}
 
+.rating-filter-title {
+  font-size: 25px;
+}
+
+.rating-filter-option {
+  padding: 10px 20px;
+}
+
+.option {
+  display: flex;
+  gap: 5px;
+  font-weight: normal;
+  padding: 3px 0;
+}
+
+.image {
+  padding: 10px;
+}
+
+.image img {
+  border-radius: 6px;
+}
+
+.clear-button {
+  width: 100%;
+  padding: 20px;
+}
+
+.clear-button button {
+  width: 100%;
+  border: none;
+  background-color: #590e0c;
+  color: white;
+  padding: 5px;
+}
+
+.clear-button button:hover {
+  background-color: #741511;
+  transition: .2s linear;
+}
+
+.service-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
