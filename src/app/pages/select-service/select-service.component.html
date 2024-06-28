@@ -10,21 +10,10 @@
           <div class="rating-filter-title">RATING</div>
           <div class="rating-filter-option">
             <div class="options">
-              <div class="option">
-                <input type="checkbox" name="" id="" />
-                <span>5 ⭐</span>
-              </div>
-              <div class="option">
-                <input type="checkbox" name="" id="" />
-                <span>4 ⭐ & above</span>
-              </div>
-              <div class="option">
-                <input type="checkbox" name="" id="" />
-                <span>3 ⭐ & above</span>
-              </div>
-              <div class="option">
-                <input type="checkbox" name="" id="" />
-                <span>Others</span>
+              <div *ngFor="let option of ratingOptions" class="option">
+                <input type="checkbox" [value]="option.value" [checked]="isRatingSelected(option.value)"
+                  (change)="updateSelectedRatings(option.value, $event)" />
+                <span>{{ option.label }}</span>
               </div>
             </div>
           </div>
@@ -33,58 +22,49 @@
           <div class="rating-filter-title">ASSETS</div>
           <div class="rating-filter-option">
             <div class="options">
-              <div class="option">
-                <input type="checkbox" name="" id="" />
-                <span>Asset 1</span>
-              </div>
-              <div class="option">
-                <input type="checkbox" name="" id="" />
-                <span>Asset 2</span>
-              </div>
-              <div class="option">
-                <input type="checkbox" name="" id="" />
-                <span>Asset 3</span>
-              </div>
-              <div class="option">
-                <input type="checkbox" name="" id="" />
-                <span>Asset 4</span>
+              <div *ngFor="let option of assetOptions" class="option">
+                <input type="checkbox" [value]="option.value" [checked]="selectedAssets.includes(option.value)"
+                  (change)="updateSelectedAssets(option.value, $event)" />
+                <span>{{ option.label }}</span>
               </div>
             </div>
           </div>
         </div>
         <div class="clear-button">
-          <button>Clear All Filters</button>
+          <button (click)="clearFilters()">Clear All Filters</button>
         </div>
       </div>
     </div>
   </div>
   <div class="services border">
-    <h2>
-      Our Services <span>({{ filteredCategories.length }})</span>
-    </h2>
+    <div class="service-header">
+      <div class="service-title">
+        <h2>
+          Our Services <span>({{ filteredCategories.length }})</span>
+        </h2>
+      </div>
+      <div class="sort-option">
+        <select (change)="sortServices($event)">
+          <option value="" disabled selected>Sort By</option>
+          <option value="ratingAsc">Rating Ascending</option>
+          <option value="ratingDesc">Rating Descending</option>
+          <option value="alphabetical">Alphabetical</option>
+        </select>
+      </div>
+    </div>
     <div *ngIf="filteredCategories.length > 0; else noData">
       <div *ngFor="let category of filteredCategories" class="loop">
-        <div
-          class="service-card"
-          (click)="SelectedService(category.categoryName)"
-        >
+        <div class="service-card" (click)="SelectedService(category.categoryName)">
           <div class="card-container">
             <div class="image">
-              <img
-                width="300px"
-                [src]="'assets/' + category.image + '.jpg'"
-                alt="{{ category.categoryName }}"
-              />
+              <img width="300px" [src]="'assets/' + category.image + '.jpg'" alt="{{ category.categoryName }}" />
             </div>
             <div class="container">
               <div class="details">
                 <div class="title">{{ category.categoryName }}</div>
                 <div class="description">{{ category.description }}</div>
                 <div class="highlights">
-                  <div
-                    *ngFor="let highlight of category.highlightsArray"
-                    class="highlight"
-                  >
+                  <div *ngFor="let highlight of category.highlightsArray" class="highlight">
                     <span><i class="bi bi-layers"></i></span>
                     {{ highlight }}
                   </div>
