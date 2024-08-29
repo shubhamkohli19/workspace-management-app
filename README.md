@@ -10,7 +10,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Crafter's Corner was conceived to address the growing demand for flexible and specialized rental spaces for creative and professional activities. The project aims to provide a seamless, secure, and user-friendly platform for artists, coaches, and hobbyists to find and book spaces that cater to their unique needs.
 
-# Architecture
+## Architecture
 
 Crafter's Corner follows a modular architecture that separates concerns across different layers:
 
@@ -18,7 +18,7 @@ Crafter's Corner follows a modular architecture that separates concerns across d
 **Backend**: DotNet application serving as the business logic layer, managing data access and API responses.
 **Database**: Microsoft MySQL Server for storing and managing application data with Dapper ORM.
 
-# Features
+## Features
 
 **Responsive UI**: Built with Angular to provide an intuitive and seamless user experience across devices.
 **Robust Backend**: Developed using DotNet for scalability and performance.
