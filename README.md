@@ -25,10 +25,17 @@ Crafter's Corner follows a modular architecture that separates concerns across d
 ## Features
 
 **Responsive UI**: Built with Angular to provide an intuitive and seamless user experience across devices.
+
 **Robust Backend**: Developed using DotNet for scalability and performance.
+
 **Secure Data Management**: Utilizes Microsoft MySQL Server, Dapper, and stored procedures to enhance data security and efficiency.
+
 **User Authentication**: Implements secure user authentication mechanisms to protect user data.
+
 **SQL Injection Protection**: Ensures data integrity through robust SQL injection prevention techniques.
+
 **Payment Integration**: Seamlessly integrates Stripe for secure and reliable payment processing.
+
 **API Development**: Comprehensive API development with Swagger for easy integration and communication between frontend and backend components.
+
 **User-Centric Design**: Designed with a focus on addressing the diverse needs of users looking for flexible rental spaces.
