@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\controllers\\getnamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\controllers\\getnamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\crafterscornerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\crafterscornerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\interface\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\interface\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\controllers\\rentdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\controllers\\rentdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\interface\\rentdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\interface\\rentdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CraftersCornerAPI.csproj",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\CraftersCornerAPI.csproj",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\CraftersCornerAPI.csproj",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\CraftersCornerAPI.csproj",
+              "RelativeToolTip": "CraftersCornerAPI\\CraftersCornerAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-11T07:51:53.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "getNameController.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\getNameController.cs",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\Controllers\\getNameController.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\getNameController.cs",
+              "RelativeToolTip": "CraftersCornerAPI\\Controllers\\getNameController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:48:07.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "CraftersCornerAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:42:47.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Interface\\Category.cs",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\Interface\\Category.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Interface\\Category.cs",
+              "RelativeToolTip": "CraftersCornerAPI\\Interface\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:42:41.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\appsettings.json",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\appsettings.json",
+              "RelativeToolTip": "CraftersCornerAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T07:41:31.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RentDetailController.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\RentDetailController.cs",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\Controllers\\RentDetailController.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\RentDetailController.cs",
+              "RelativeToolTip": "CraftersCornerAPI\\Controllers\\RentDetailController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:06:50.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentDetail.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Interface\\RentDetail.cs",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\Interface\\RentDetail.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Interface\\RentDetail.cs",
+              "RelativeToolTip": "CraftersCornerAPI\\Interface\\RentDetail.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:49:05.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\Program.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Program.cs",
+              "RelativeToolTip": "CraftersCornerAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:43:11.596Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

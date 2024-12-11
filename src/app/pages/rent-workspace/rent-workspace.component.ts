@@ -61,7 +61,6 @@ export class RentWorkspaceComponent implements OnInit {
       rentDate: this.formData.rentDate,
       returnDate: this.formData.returnDate,
       assets: assetsString,
-      status: 'Pending',
       email: localStorage.getItem('email')
     };
 
@@ -108,16 +107,13 @@ export class RentWorkspaceComponent implements OnInit {
   
     if (selectedAssets) {
       for (let asset of selectedAssets) {
-        const assetValue = asset.value; // Access the value property
-        assetTotal += this.assetAmounts[assetValue]; // Use assetValue to access asset amount
+        const assetValue = asset.value;
+        assetTotal += this.assetAmounts[assetValue];
       }
     }
   
-    // Calculate total amount including workspace rent and selected assets
     this.totalAmount = this.rentAmounts[this.formData.workspaceSize] + assetTotal;
   }
-  
-  
 
   finalTotalAmount() {
     const rentDate = new Date(this.formData.rentDate);

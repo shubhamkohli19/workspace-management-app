@@ -5,6 +5,5 @@ export interface RentalForm {
   rentDate: Date;
   returnDate: Date;
   assets: string;
-  status: string;
   email: string | null;
 }

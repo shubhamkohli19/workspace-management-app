@@ -21,6 +21,8 @@ export class FeaturesComponent implements OnInit {
     this.categoryService.getCategories().subscribe(
       response => {
         this.categories = response;
+        console.log(response);
+
       },
       error => {
         console.error('Error getting categories:', error);
