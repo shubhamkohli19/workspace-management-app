@@ -13,7 +13,7 @@ builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Str
 builder.Services.AddCors(options =>
 {
   options.AddPolicy("AllowSpecificOrigin",
-      builder => builder.WithOrigins("http://localhost:4200")
+      builder => builder.WithOrigins("*")
                         .AllowAnyHeader()
                         .AllowAnyMethod());
 });
