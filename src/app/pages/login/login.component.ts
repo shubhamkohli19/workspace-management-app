@@ -59,12 +59,9 @@ export class LoginComponent {
       this.loginService.login(login).subscribe(
         (errorMessage: string) => {
           console.log(errorMessage)
-          // Handle the error message
           this.errorMessages.push(errorMessage);
-          // You can display the error message to the user or handle it as needed
         }
       );
-      
     }
   }
 }

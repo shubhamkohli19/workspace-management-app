@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\getNameController.cs" />
     <Compile Remove="Interface\Class.cs" />
     <Compile Remove="Interface\CreateCategory.cs" />
     <Compile Remove="Interface\DateOnlyJsonConvertor.cs" />

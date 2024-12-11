@@ -71,7 +71,7 @@ namespace CraftersCornerAPI.Controllers
     {
       try
       {
-        string connectionString = _configuration.GetConnectionString("DefaultConnection") + ";Connect Timeout=30;";
+        string connectionString = _configuration.GetConnectionString("DefaultConnection");
 
         using var connection = new SqlConnection(connectionString);
         await connection.OpenAsync();

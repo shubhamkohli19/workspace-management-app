@@ -18,16 +18,38 @@ namespace CraftersCornerAPI.Controllers
     }
 
     [HttpGet("getLocations")]
-    public async Task<ActionResult<List<Location>>> GetAllLocations()
+    public async Task<IActionResult> GetAllLocations()
     {
-      using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
-      IEnumerable<Location> users = await SelectAllLocations(connection);
-      return Ok(users);
+      try
+      {
+        string connectionString = _configuration.GetConnectionString("DefaultConnection");
+        using var connection = new SqlConnection(connectionString);
+        await connection.OpenAsync();
+        IEnumerable<Location> locations = await SelectAllLocations(connection);
+        return Ok(locations);
+      }
+      catch (SqlException sqlEx)
+      {
+        return StatusCode(StatusCodes.Status500InternalServerError,
+            $"Database error occurred: {sqlEx.Message}");
+      }
+      catch (Exception ex)
+      {
+        return StatusCode(StatusCodes.Status500InternalServerError,
+            $"An unexpected error occurred: {ex.Message}");
+      }
     }
 
     private static async Task<IEnumerable<Location>> SelectAllLocations(SqlConnection connection)
     {
-      return await connection.QueryAsync<Location>("SELECT * FROM locations");
+      try
+      {
+        return await connection.QueryAsync<Location>("SELECT * FROM locations");
+      }
+      catch (Exception ex)
+      {
+        throw new Exception("Error fetching categories: " + ex.Message, ex);
+      }
     }
 
     [HttpPost("postLocation")]
