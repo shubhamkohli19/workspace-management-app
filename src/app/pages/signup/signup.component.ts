@@ -107,6 +107,7 @@ export class SignupComponent {
           if (error.status == 409) {
             this.errorMessages.push('Email already exists.');
           } else {
+            console.log(req);
             this.errorMessages.push('An error occurred. Please try again.');
           }
         }

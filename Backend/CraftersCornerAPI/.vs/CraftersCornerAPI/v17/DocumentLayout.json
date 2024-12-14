@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\crafterscornerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\crafterscornerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CraftersCornerAPI",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\CraftersCornerAPI.csproj",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\CraftersCornerAPI.csproj",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\CraftersCornerAPI.csproj",
+              "RelativeToolTip": "CraftersCornerAPI\\CraftersCornerAPI.csproj",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-12T10:57:21.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CraftersCornerAPI\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAkwGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T10:52:47.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LocationsController.cs",
               "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\LocationsController.cs",
               "RelativeDocumentMoniker": "CraftersCornerAPI\\Controllers\\LocationsController.cs",
               "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\LocationsController.cs",
               "RelativeToolTip": "CraftersCornerAPI\\Controllers\\LocationsController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA6wDIAAABMAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwDIAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T16:54:22.644Z",
               "EditorCaption": ""

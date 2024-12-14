@@ -4,8 +4,7 @@ import { Login } from '../models/login';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 
-const API_BASE_URL: string = "https://localhost:44307/api/Login";
-// const API_BASE_URL: string = 'https://localhost:44374/api/Login';
+const API_BASE_URL: string = "https://iyofkr3uoj.execute-api.ap-south-1.amazonaws.com/Stage1/api/Login";
 
 @Injectable({
   providedIn: 'root'
@@ -24,15 +23,15 @@ export class LoginService {
             localStorage.setItem('email', response.userData.email);
             this.router.navigate(['/homepage']);
           }
-          observer.complete(); // Complete the observer since there's no error
+          observer.complete();
         },
         (error: any) => {
           if (error.status == 409) {
-            observer.next(error.error); // Pass the error message to the observer
+            observer.next(error.error);
           } else {
-            observer.error('An error occurred. Please try again.'); // Handle other errors
+            observer.error('An error occurred. Please try again.');
           }
-          observer.complete(); // Complete the observer after handling the error
+          observer.complete();
         }
       );
     });
@@ -44,6 +43,7 @@ export class LoginService {
 
   logout() {
     localStorage.removeItem('token');
+    localStorage.removeItem('email');
     this.router.navigate(['/homepage']);
   }
 }

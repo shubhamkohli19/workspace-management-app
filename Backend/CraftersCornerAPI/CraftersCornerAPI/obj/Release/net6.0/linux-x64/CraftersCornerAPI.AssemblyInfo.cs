@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CraftersCornerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06f787513b85a3dea819b7a01c0784f1bfe202e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38537c6720db2bbd2144e940bfac58cb3cf986d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CraftersCornerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CraftersCornerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

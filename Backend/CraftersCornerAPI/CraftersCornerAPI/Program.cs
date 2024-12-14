@@ -1,7 +1,6 @@
+using CraftersCornerAPI.Models;
 using Microsoft.Extensions.Options;
 using Stripe;
-using CraftersCornerAPI.Interface;
-using CraftersCornerAPI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,14 +11,29 @@ builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Str
 
 builder.Services.AddCors(options =>
 {
-  options.AddPolicy("AllowSpecificOrigin",
-      builder => builder.WithOrigins("*")
-                        .AllowAnyHeader()
-                        .AllowAnyMethod());
+  options.AddPolicy("AllowSpecificOrigin", policy =>
+      policy.WithOrigins("http://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod());
 });
 
 builder.Services.AddAWSLambdaHosting(LambdaEventSource.RestApi);
+
 var app = builder.Build();
+
+app.Use(async (context, next) =>
+{
+  if (context.Request.Method == "OPTIONS")
+  {
+    context.Response.Headers.Add("Access-Control-Allow-Origin", "http://localhost:4200");
+    context.Response.Headers.Add("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
+    context.Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type");
+    context.Response.StatusCode = 200;
+    await context.Response.CompleteAsync();
+    return;
+  }
+  await next();
+});
 
 if (app.Environment.IsDevelopment())
 {
@@ -27,9 +41,10 @@ if (app.Environment.IsDevelopment())
   app.UseSwaggerUI();
 }
 
-app.UseRouting();
 app.UseCors("AllowSpecificOrigin");
+app.UseRouting();
 app.UseAuthorization();
+
 app.MapControllers();
 
 var stripeSettings = app.Services.GetRequiredService<IOptions<StripeSettings>>().Value;

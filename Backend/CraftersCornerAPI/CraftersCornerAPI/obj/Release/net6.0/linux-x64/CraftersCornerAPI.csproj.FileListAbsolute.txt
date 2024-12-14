@@ -15,8 +15,6 @@ D:\workspace-management-app\Backend\CraftersCornerAPI\CraftersCornerAPI\bin\Rele
 D:\workspace-management-app\Backend\CraftersCornerAPI\CraftersCornerAPI\bin\Release\net6.0\linux-x64\Amazon.Lambda.Serialization.SystemTextJson.dll
 D:\workspace-management-app\Backend\CraftersCornerAPI\CraftersCornerAPI\bin\Release\net6.0\linux-x64\Dapper.dll
 D:\workspace-management-app\Backend\CraftersCornerAPI\CraftersCornerAPI\bin\Release\net6.0\linux-x64\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\workspace-management-app\Backend\CraftersCornerAPI\CraftersCornerAPI\bin\Release\net6.0\linux-x64\Microsoft.Bcl.AsyncInterfaces.dll
-D:\workspace-management-app\Backend\CraftersCornerAPI\CraftersCornerAPI\bin\Release\net6.0\linux-x64\Microsoft.Bcl.TimeProvider.dll
 D:\workspace-management-app\Backend\CraftersCornerAPI\CraftersCornerAPI\bin\Release\net6.0\linux-x64\Microsoft.IdentityModel.Abstractions.dll
 D:\workspace-management-app\Backend\CraftersCornerAPI\CraftersCornerAPI\bin\Release\net6.0\linux-x64\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\workspace-management-app\Backend\CraftersCornerAPI\CraftersCornerAPI\bin\Release\net6.0\linux-x64\Microsoft.IdentityModel.Logging.dll
