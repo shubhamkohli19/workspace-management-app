@@ -79,20 +79,3 @@ Craftors Corner is a platform that connects creators and enthusiasts of handmade
 3. Buyers can browse, search, and purchase craft items.
 4. Use the custom order feature to request tailored creations.
 5. Complete payments securely using the Stripe integration.
-
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Description of changes"
-   ```
-4. Push your branch:
-   ```bash
-   git push origin feature-name
-   ```
-
