@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|d:\\workspace-management-app\\backend\\crafterscornerapi\\crafterscornerapi\\crafterscornerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CEA7356B-6B8B-48C4-90DB-E921BC769A9A}|CraftersCornerAPI\\CraftersCornerAPI.csproj|solutionrelative:crafterscornerapi\\crafterscornerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -31,7 +35,20 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CraftersCornerAPI",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CraftersCornerAPI\\appsettings.json",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\appsettings.json",
+              "RelativeToolTip": "CraftersCornerAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T09:23:49.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CraftersCornerAPI.csproj",
               "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\CraftersCornerAPI.csproj",
               "RelativeDocumentMoniker": "CraftersCornerAPI\\CraftersCornerAPI.csproj",
               "ToolTip": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\CraftersCornerAPI.csproj",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "CraftersCornerAPI\\Controllers\\LoginController.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "CraftersCornerAPI\\Controllers\\LoginController.cs",
               "ViewState": "AQIAAE0AAAAAAAAAAAAkwGUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:52:47.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T10:52:47.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LocationsController.cs",
               "DocumentMoniker": "D:\\workspace-management-app\\Backend\\CraftersCornerAPI\\CraftersCornerAPI\\Controllers\\LocationsController.cs",
               "RelativeDocumentMoniker": "CraftersCornerAPI\\Controllers\\LocationsController.cs",
@@ -64,8 +80,7 @@
               "RelativeToolTip": "CraftersCornerAPI\\Controllers\\LocationsController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwDIAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T16:54:22.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T16:54:22.644Z"
             }
           ]
         }

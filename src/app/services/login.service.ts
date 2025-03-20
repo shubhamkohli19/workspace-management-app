@@ -4,7 +4,7 @@ import { Login } from '../models/login';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 
-const API_BASE_URL: string = "https://iyofkr3uoj.execute-api.ap-south-1.amazonaws.com/Stage1/api/Login";
+const API_BASE_URL: string = "https://localhost:44307/api/Login";
 
 @Injectable({
   providedIn: 'root'
@@ -19,8 +19,10 @@ export class LoginService {
       this.httpClient.post<any>(`${API_BASE_URL}/postUser`, login).subscribe(
         (response: any) => {
           if (response && response.token) {
+            console.log(response);
             localStorage.setItem('token', response.token);
-            localStorage.setItem('email', response.userData.email);
+            localStorage.setItem('email', response.email);
+            localStorage.setItem('name',  response.firstName);
             this.router.navigate(['/homepage']);
           }
           observer.complete();

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { LoginService } from '../../services/login.service';
 import { SearchService } from '../../services/search.service';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -6,17 +6,24 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+  styleUrls: ['./navbar.component.css']
 })
-
-export class NavbarComponent {
+export class NavbarComponent implements OnInit {
   searchtext: string = '';
+  isHomepage: boolean = false;
 
-  constructor(private loginService: LoginService,
-    private searchService: SearchService, private router: Router
-  ) {
+  constructor(
+    private loginService: LoginService,
+    private searchService: SearchService,
+    private router: Router
+  ) {}
+
+  ngOnInit(): void {
+    this.router.events.subscribe(() => {
+      this.isHomepage = this.router.url === '/homepage';
+    });
   }
-  
+
   onSearch() {
     this.searchService.setSearchText(this.searchtext);
     return false;
@@ -31,6 +38,6 @@ export class NavbarComponent {
   }
 
   SearchbarActive(): boolean {
-    return this.router.url !== '/homepage';
+    return this.router.url === '/select-location' || this.router.url === '/select-service';
   }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CraftersCornerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38537c6720db2bbd2144e940bfac58cb3cf986d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+028718a9a13aa2e07cc4e3d35fdda64cc47dc2f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CraftersCornerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CraftersCornerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

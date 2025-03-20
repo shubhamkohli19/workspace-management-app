@@ -55,7 +55,7 @@
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[8.3.0, )"
+              "version": "[6.35.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

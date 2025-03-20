@@ -1,2 +1,33 @@
-<h1>Pay Rs. {{total}}</h1>
-<button (click)="onCheckout()">Checkout</button>
+<div class="checkout-container">
+    <div class="checkout-header">
+      <h1>Checkout</h1>
+    </div>
+    <div class="checkout-details">
+      <h2>Selected Items</h2>
+      <ul class="selected-items">
+        <li>
+          <span class="item-label">Service:</span>
+          <span class="item-value">{{ bill.service }}</span>
+        </li>
+        <li>
+          <span class="item-label">Location:</span>
+          <span class="item-value">{{ bill.location }}</span>
+        </li>
+        <li>
+          <span class="item-label">Total Days:</span>
+          <span class="item-value">{{ bill.totalDays }}</span>
+        </li>
+        <li>
+          <span class="item-label">Assets:</span>
+          <span class="item-value">{{ bill.assets.join(', ') }}</span>
+        </li>
+        <li>
+          <span class="item-label">Total Amount:</span>
+          <span class="item-value">Rs. {{ total }}</span>
+        </li>
+      </ul>
+    </div>
+    <div class="payment-section">
+      <button (click)="onCheckout()">Checkout</button>
+    </div>
+  </div>

@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-success-payment',
   templateUrl: './success-payment.component.html',
-  styleUrl: './success-payment.component.css'
+  styleUrls: ['./success-payment.component.css']
 })
-export class SuccessPaymentComponent {
+export class SuccessPaymentComponent implements OnInit {
 
+  constructor(private router: Router) { }
+
+  ngOnInit(): void {
+    setTimeout(() => {
+      this.router.navigate(['/']);
+    }, 5000);
+  }
 }

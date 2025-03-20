@@ -8,7 +8,7 @@ import { Location } from './../models/location';
 })
 
 export class LocationService {
-  private apiUrl = 'https://iyofkr3uoj.execute-api.ap-south-1.amazonaws.com/Stage1/api/Locations/getLocations';
+  private apiUrl = 'https://localhost:44307/api/Locations/getLocations';
 
   constructor(private http: HttpClient) { }
 

@@ -19,6 +19,7 @@ export class SelectLocationComponent implements OnInit, OnDestroy {
   searchSubscription: Subscription = new Subscription();
   selectedPrices: string[] = [];
   selectedWorkspaces: string[] = [];
+  selectedLocations: string[] = [];
   total: number = 0;
 
   priceOptions = [
@@ -33,6 +34,14 @@ export class SelectLocationComponent implements OnInit, OnDestroy {
     { value: '10-20', label: '10-20' },
     { value: '20-30', label: '20-30' },
     { value: '30-40', label: '30-40' }
+  ];
+
+  locationOptions = [
+    { value: 'Chandigarh', label: 'Chandigarh' },
+    { value: 'Mohali', label: 'Mohali' },
+    { value: 'Panchkula', label: 'Panchkula' },
+    { value: 'Zirakpur', label: 'Zirakpur' },
+    { value: 'Others', label: 'Others' }
   ];
 
   constructor(private locationService: LocationService, private route: ActivatedRoute, private router: Router, private searchService: SearchService) {
@@ -89,6 +98,19 @@ export class SelectLocationComponent implements OnInit, OnDestroy {
     this.applyFilters();
   }
 
+  updateSelectedLocations(value: string, event: any) {
+    const checked = event.target.checked;
+    if (checked) {
+      this.selectedLocations.push(value);
+    } else {
+      const index = this.selectedLocations.indexOf(value);
+      if (index > -1) {
+        this.selectedLocations.splice(index, 1);
+      }
+    }
+    this.applyFilters();
+  }
+
   applyFilters() {
     this.filteredLocation = this.locations.filter(location => {
       const matchesPrice = this.selectedPrices.length === 0 || this.selectedPrices.some(priceRange => {
@@ -104,13 +126,21 @@ export class SelectLocationComponent implements OnInit, OnDestroy {
         return location.workspaceNo >= minWorkspace && location.workspaceNo <= maxWorkspace;
       });
 
-      return matchesPrice && matchesWorkspace;
+      const matchesLocation = this.selectedLocations.length === 0 || this.selectedLocations.some(loc => {
+        if (loc === 'Others') {
+          return !['Chandigarh', 'Mohali', 'Panchkula', 'Zirakpur'].includes(location.name);
+        }
+        return location.name === loc;
+      });
+
+      return matchesPrice && matchesWorkspace && matchesLocation;
     });
   }
 
   clearFilters() {
     this.selectedPrices = [];
     this.selectedWorkspaces = [];
+    this.selectedLocations = [];
     this.applyFilters();
   }
 
@@ -135,7 +165,7 @@ export class SelectLocationComponent implements OnInit, OnDestroy {
     }
   }
 
-  SelectedService(str: string) {
-    this.router.navigate(['/rent-workspace'], { state: { 'select-location': str, 'select-service': this.service } });
+  SelectedService(location: Location) {
+    this.router.navigate(['/rent-workspace'], { state: { 'select-location': location.name, 'select-service': this.service, 'location-price': location.price } });
   }
 }

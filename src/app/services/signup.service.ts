@@ -4,7 +4,7 @@ import { signup } from './../models/signup';
 import { Observable } from "rxjs";
 import { Router } from "@angular/router";
 
-const API_BASE_URL: string = "https://iyofkr3uoj.execute-api.ap-south-1.amazonaws.com/Stage1/api/Signup";
+const API_BASE_URL: string = "https://localhost:44307/api/Signup";
 
 @Injectable({
     providedIn: 'root'

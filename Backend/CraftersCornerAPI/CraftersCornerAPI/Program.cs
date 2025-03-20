@@ -12,35 +12,36 @@ builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Str
 builder.Services.AddCors(options =>
 {
   options.AddPolicy("AllowSpecificOrigin", policy =>
-      policy.WithOrigins("http://localhost:4200")
+      policy.WithOrigins("*")
             .AllowAnyHeader()
             .AllowAnyMethod());
 });
 
 builder.Services.AddAWSLambdaHosting(LambdaEventSource.RestApi);
 
-var app = builder.Build();
 
-app.Use(async (context, next) =>
-{
-  if (context.Request.Method == "OPTIONS")
-  {
-    context.Response.Headers.Add("Access-Control-Allow-Origin", "http://localhost:4200");
-    context.Response.Headers.Add("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
-    context.Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type");
-    context.Response.StatusCode = 200;
-    await context.Response.CompleteAsync();
-    return;
-  }
-  await next();
-});
+
+
+var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
   app.UseSwagger();
   app.UseSwaggerUI();
 }
+app.Use(async (context, next) =>
+{
+  if (context.Request.Method == HttpMethods.Options)
+  {
+    context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+    context.Response.Headers.Add("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+    context.Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Authorization");
+    context.Response.StatusCode = 200;
+    return;
+  }
 
+  await next.Invoke();
+});
 app.UseCors("AllowSpecificOrigin");
 app.UseRouting();
 app.UseAuthorization();

@@ -1,18 +1,17 @@
 <nav>
   <div class="navbar-content">
-    <a><img src="../../assets/logoWhite.png" alt="Logo" class="logo" /></a>
+    <a routerLink="/homepage"><img src="../../assets/logo1.png" alt="Logo" class="logo" /></a>
     <form class="search-box" (submit)="onSearch()" *ngIf="SearchbarActive()">
       <input type="search" [(ngModel)]="searchtext" name="searchtext" placeholder="Search Workspace" />
       <button class="search-button"><i class="bi bi-search"></i></button>
     </form>
     <div class="buttons-container">
       <div class="buttons">
-        <a *ngIf="isValid()" routerLink="/select-service" class="button-link">
+        <a *ngIf="isValid() && isHomepage" routerLink="/select-service" class="button-link">
           <button class="navbar-button rent-button">Rent Workspace</button>
         </a>
         <a *ngIf="!isValid()" class="button-link" routerLink="/login">
           <button class="btn-success navbar-button">
-            <img src="../../assets/user.png" style="width: 30px; height: auto; margin-right: 3px; " />
             Login / Signup
           </button>
         </a>

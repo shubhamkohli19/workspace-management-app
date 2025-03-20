@@ -7,8 +7,6 @@ D:\workspace-management-app\Backend\Workspace Management App\Workspace Managemen
 D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net6.0\Workspace Management App.pdb
 D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net6.0\Dapper.dll
 D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
 D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\workspace-management-app\Backend\Workspace Management App\Workspace Management App\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll

@@ -5,4 +5,5 @@ export interface Location {
     workspaceNo: number;
     price: number;
     image: string;
+    service: string;
 }

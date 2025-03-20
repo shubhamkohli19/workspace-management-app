@@ -54,7 +54,6 @@ h2 {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   cursor: pointer;
   overflow: hidden;
-  
 }
 
 .service-card:hover {
@@ -70,6 +69,7 @@ h2 {
 .image img {
   width: 100%;
   height: auto;
+  border-radius: 6px;
 }
 
 .details {
@@ -80,7 +80,7 @@ h2 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #333;
+  color: #675dff;
 }
 
 .description {
@@ -97,64 +97,77 @@ h2 {
   font-weight: bold;
 }
 
-  .filter-column{
-    padding: 5px 20px ;
-    background-color: white;
-    height: 100%;
-  }
-  
-  .filter-title{
-    display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    border-bottom: 1px solid gainsboro;
-    padding: 10px 0 20px 0;
-    font-weight: bolder;
-  }
-  
-  .rating-filter{
-    padding: 20px;
-    border-bottom: 1px solid gainsboro;
-  }
-  
-  .rating-filter-title{
-    font-size: 25px;
-  }
-  
-  .rating-filter-option{
-    padding: 10px 20px;
-  }
-  
-  .option{
-    display: flex;
-    gap: 5px;
-    font-weight: normal;
-    padding: 3px 0;
-  }
+.filter-column {
+  padding: 5px 20px;
+  background-color: white;
+  height: 100%;
+}
 
-  .image{
-    padding: 10px;
-  }
+.filter-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  border-bottom: 1px solid gainsboro;
+  padding: 10px 0 20px 0;
+  font-weight: bolder;
+  color: #675dff;
+}
 
-  .image img{
-    border-radius: 6px;
-  }
-  
-  .clear-button{
-    width: 100%;
-    padding: 20px;
-  }
-  
-  .clear-button button{
-    width: 100%;
-    border: none;
-    background-color: #590e0c;
-    color: white;
-    padding: 5px;
-  }
-  
-  .clear-button button:hover{
-    background-color:#741511;
-    transition: .2s linear;
-  }
+.rating-filter {
+  padding: 20px;
+  border-bottom: 1px solid gainsboro;
+}
 
+.rating-filter-title {
+  font-size: 25px;
+}
+
+.rating-filter-option {
+  padding: 10px 20px;
+}
+
+.option {
+  display: flex;
+  gap: 5px;
+  font-weight: normal;
+  padding: 3px 0;
+  color: #333;
+}
+
+.clear-button {
+  width: 100%;
+  padding: 20px;
+}
+
+.clear-button button {
+  width: 100%;
+  border: none;
+  background-color: #675dff;
+  color: white;
+  padding: 5px;
+}
+
+.clear-button button:hover {
+  background-color: #5748d1;
+  transition: .2s linear;
+}
+
+.service-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.service-title h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.sort-option select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  color: #333;
+}

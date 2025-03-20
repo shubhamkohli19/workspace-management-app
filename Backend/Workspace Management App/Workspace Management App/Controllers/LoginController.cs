@@ -90,7 +90,7 @@ namespace Workspace_Management_App.Controllers
         using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
         var query = "EXEC AuthenticateUser @email = @email, @password = @password";
         var userData = connection.QueryFirstOrDefault<Signup>(query, new { email = user.email, password = user.password });
-        return Ok(new { token, userData });
+        return Ok(new { token, userData.firstName, userData.email });
       }
       else
       {

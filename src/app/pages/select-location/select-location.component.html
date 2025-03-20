@@ -1,76 +1,86 @@
 <div class="main">
-    <div class="filters">
-        <div class="filter-column">
-            <div class="filter-title">
-                <div>Filters</div>
-                <div><i class="bi bi-funnel"></i></div>
+  <div class="filters">
+    <div class="filter-column">
+      <div class="filter-title">
+        <div>Filters</div>
+        <div><i class="bi bi-funnel"></i></div>
+      </div>
+      <div class="filter-functionality">
+        <div class="rating-filter">
+          <div class="rating-filter-title">PRICE</div>
+          <div class="rating-filter-option">
+            <div class="options">
+              <div *ngFor="let option of priceOptions" class="option">
+                <input type="checkbox" [value]="option.value" [checked]="selectedPrices.includes(option.value)"
+                  (change)="updateSelectedPrices(option.value, $event)" />
+                <span>{{ option.label }}</span>
+              </div>
             </div>
-            <div class="filter-functionality">
-                <div class="rating-filter">
-                    <div class="rating-filter-title">PRICE</div>
-                    <div class="rating-filter-option">
-                        <div class="options">
-                            <div *ngFor="let option of priceOptions" class="option">
-                                <input type="checkbox" [value]="option.value"
-                                    [checked]="selectedPrices.includes(option.value)"
-                                    (change)="updateSelectedPrices(option.value, $event)" />
-                                <span>{{ option.label }}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="rating-filter">
-                    <div class="rating-filter-title">WORKSPACES</div>
-                    <div class="rating-filter-option">
-                        <div class="options">
-                            <div *ngFor="let option of workspaceOptions" class="option">
-                                <input type="checkbox" [value]="option.value"
-                                    [checked]="selectedWorkspaces.includes(option.value)"
-                                    (change)="updateSelectedWorkspaces(option.value, $event)" />
-                                <span>{{ option.label }}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clear-button">
-                    <button (click)="clearFilters()">Clear All Filters</button>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="rating-filter">
+          <div class="rating-filter-title">WORKSPACES</div>
+          <div class="rating-filter-option">
+            <div class="options">
+              <div *ngFor="let option of workspaceOptions" class="option">
+                <input type="checkbox" [value]="option.value" [checked]="selectedWorkspaces.includes(option.value)"
+                  (change)="updateSelectedWorkspaces(option.value, $event)" />
+                <span>{{ option.label }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rating-filter">
+          <div class="rating-filter-title">LOCATION</div>
+          <div class="rating-filter-option">
+            <div class="options">
+              <div *ngFor="let option of locationOptions" class="option">
+                <input type="checkbox" [value]="option.value" [checked]="selectedLocations.includes(option.value)"
+                  (change)="updateSelectedLocations(option.value, $event)" />
+                <span>{{ option.label }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear-button">
+          <button (click)="clearFilters()">Clear All Filters</button>
+        </div>
+      </div>
     </div>
-    <div class="services border">
-        <div class="service-header">
-            <div class="service-title">
-                <h2>
-                    Our Locations <span>({{ filteredLocation.length }})</span>
-                </h2>
-            </div>
-            <div class="sort-option">
-                <select (change)="sortLocations($event)">
-                    <option value="" disabled selected>Sort By</option>
-                    <option value="priceAsc">Price Ascending</option>
-                    <option value="priceDesc">Price Descending</option>
-                    <option value="alphabetical">Alphabetical</option>
-                </select>
-            </div>
-        </div>
-        <div *ngIf="filteredLocation.length > 0; else noData" class="ngloop">
-            <div *ngFor="let location of filteredLocation" class="service-card">
-                <div class="card-container" (click)="SelectedService(location.name)">
-                    <div class="image">
-                        <img [src]="'assets/' + location.image + '.jpg'" alt="{{ location.name }}" />
-                    </div>
-                    <div class="details">
-                        <div class="title">{{ location.name }}</div>
-                        <div class="description">{{ location.address }}</div>
-                        <div class="workspace">Workspaces: {{ location.workspaceNo }}</div>
-                        <div class="price">Starting from - Rs {{ location.price }}</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <ng-template #noData>
-            <p>No locations available.</p>
-        </ng-template>
+  </div>
+  <div class="services border">
+    <div class="service-header">
+      <div class="service-title">
+        <h2>
+          Our Locations <span>({{ filteredLocation.length }})</span>
+        </h2>
+      </div>
+      <div class="sort-option">
+        <select (change)="sortLocations($event)">
+          <option value="" disabled selected>Sort By</option>
+          <option value="priceAsc">Price Ascending</option>
+          <option value="priceDesc">Price Descending</option>
+          <option value="alphabetical">Alphabetical</option>
+        </select>
+      </div>
     </div>
+    <div *ngIf="filteredLocation.length > 0; else noData" class="ngloop">
+      <div *ngFor="let location of filteredLocation" class="service-card">
+        <div class="card-container" (click)="SelectedService(location)">
+          <div class="image">
+            <img [src]="'assets/' + location.image + '.jpeg'" alt="{{ location.name }}" />
+          </div>
+          <div class="details">
+            <div class="title">{{ location.address }}</div>
+            <div class="description">{{ location.name }}</div>
+            <div class="workspace">Workspaces: {{ location.workspaceNo }}</div>
+            <div class="price">Starting from - Rs {{ location.price }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ng-template #noData>
+      <p>No locations available.</p>
+    </ng-template>
+  </div>
 </div>

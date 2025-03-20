@@ -106,7 +106,7 @@ h1 {
 
 .rating {
   font-size: 15px;
-  background-color: #590e0c;
+  background-color: #675dff;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -125,13 +125,13 @@ h1 {
   border-bottom: 1px solid gainsboro;
 }
 
-.filter-column{
-  padding: 5px 20px ;
+.filter-column {
+  padding: 5px 20px;
   background-color: white;
   height: 100%;
 }
 
-.filter-title{
+.filter-title {
   display: flex;
   justify-content: space-between;
   font-size: 30px;
@@ -140,40 +140,58 @@ h1 {
   font-weight: bolder;
 }
 
-.rating-filter{
+.rating-filter {
   padding: 20px;
   border-bottom: 1px solid gainsboro;
 }
 
-.rating-filter-title{
+.rating-filter-title {
   font-size: 25px;
 }
 
-.rating-filter-option{
+.rating-filter-option {
   padding: 10px 20px;
 }
 
-.option{
+.option {
   display: flex;
   gap: 5px;
   font-weight: normal;
   padding: 3px 0;
 }
 
-.clear-button{
+.clear-button {
   width: 100%;
   padding: 20px;
 }
 
-.clear-button button{
+.clear-button button {
   width: 100%;
   border: none;
-  background-color: #590e0c;
+  background-color: #675dff;
   color: white;
   padding: 5px;
 }
 
-.clear-button button:hover{
-  background-color:#741511;
+.clear-button button:hover {
+  background-color: #5748d1;
   transition: .2s linear;
+}
+
+.service-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.service-title h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.sort-option select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }

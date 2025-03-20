@@ -1,9 +1,11 @@
 <div class="main">
-  <div class="design"></div>
+  <div class="design">
+    <img src="assets/illustration.png" alt="Illustration" class="illustration" />
+  </div>
   <div class="form-container">
     <div class="form-inside">
       <div class="text-lines">
-        <h1>Welcome Gautam!</h1>
+        <h1>Welcome {{name}}!</h1>
         <h4>
           Reserve Your Perfect Workspace Today - Quick, Easy and Flexible
           Booking for Every Professional Need!
@@ -51,13 +53,13 @@
                   Select workspace size
                 </option>
                 <option value="small">
-                  Small - ${{ rentAmounts["small"] }}
+                  Small - Rs. {{ rentAmounts["small"] }}
                 </option>
                 <option value="medium">
-                  Medium - ${{ rentAmounts["medium"] }}
+                  Medium - Rs. {{ rentAmounts["medium"] }}
                 </option>
                 <option value="large">
-                  Large - ${{ rentAmounts["large"] }}
+                  Large - Rs. {{ rentAmounts["large"] }}
                 </option>
               </select>
             </div>
@@ -120,7 +122,6 @@
             <button type="submit" [disabled]="!rentalForm.valid">Book Now</button>
           </div>
         </div>
-        
       </form>
     </div>
   </div>

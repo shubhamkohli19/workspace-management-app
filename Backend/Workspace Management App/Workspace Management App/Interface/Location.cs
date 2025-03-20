@@ -8,5 +8,6 @@ namespace Workspace_Management_App.Interface
     public int workspaceNo { get; set; }
     public int price { get; set; }
     public string image { get; set; }
+    public string service { get; set; }
   }
 }
