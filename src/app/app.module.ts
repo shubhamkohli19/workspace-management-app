@@ -23,6 +23,7 @@ import { CancelPaymentComponent } from './components/cancel-payment/cancel-payme
 import { SuccessPaymentComponent } from './components/success-payment/success-payment.component';
 import { ShowcaseComponent } from './components/showcase/showcase.component';
 import { NgSelectModule } from '@ng-select/ng-select';
+import { UploadSiteComponent } from './pages/upload-site/upload-site.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { NgSelectModule } from '@ng-select/ng-select';
     CheckoutComponent,
     CancelPaymentComponent,
     SuccessPaymentComponent,
-    ShowcaseComponent
+    ShowcaseComponent,
+    UploadSiteComponent
   ],
   imports: [
     BrowserModule,

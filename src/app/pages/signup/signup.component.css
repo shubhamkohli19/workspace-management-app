@@ -101,6 +101,58 @@
 
 .input-box label {
   color: #333;
+  font-weight: 500; /* Ensure labels are visually distinct */
+}
+
+.input-box div {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add spacing between radio buttons and labels */
+  margin-top: 8px;
+}
+
+.input-box input[type="radio"] {
+  accent-color: #590e0c; /* Match the theme color for radio buttons */
+  cursor: pointer;
+}
+
+.input-box label[for="user"], 
+.input-box label[for="seller"] {
+  font-size: 0.9rem; /* Slightly smaller font for radio labels */
+  color: #555; /* Subtle color for distinction */
+}
+
+.input-box input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #590e0c; /* Match the theme color for the checkbox */
+  cursor: pointer;
+}
+
+.input-box label[for="isSeller"] {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.input-box.inline {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add spacing between the label and checkbox */
+}
+
+.input-box.inline label {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+.input-box.inline input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #590e0c; /* Match the theme color for the checkbox */
+  cursor: pointer;
 }
 
 .form :where(.input-box input, .select-box) {

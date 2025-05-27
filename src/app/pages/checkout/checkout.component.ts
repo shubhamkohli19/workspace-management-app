@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { PaymentService } from '../../services/payment.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 interface PaymentObject{
   total: number,
@@ -18,7 +18,7 @@ export class CheckoutComponent {
   bill: any;
   paymentObj: PaymentObject = { total: 0, productName: '' };
 
-  constructor(private paymentService: PaymentService, private route: ActivatedRoute) {
+  constructor(private paymentService: PaymentService, private route: ActivatedRoute, private router: Router) {
     this.route.queryParams.subscribe(params => {
       if (params['bill']) {
         this.bill = JSON.parse(params['bill']);
@@ -36,5 +36,9 @@ export class CheckoutComponent {
     }, (error: any) => {
       console.error('Error creating checkout session', error);
     });
+  }
+
+  onCheckoutUPI(): void {
+    this.router.navigate(['/payment-upi']);
   }
 }

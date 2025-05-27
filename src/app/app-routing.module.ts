@@ -12,6 +12,8 @@ import { BillPaymentComponent } from './pages/bill-payment/bill-payment.componen
 import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { SuccessPaymentComponent } from './components/success-payment/success-payment.component';
 import { CancelPaymentComponent } from './components/cancel-payment/cancel-payment.component';
+import { PaymentUpiComponent } from './pages/payment-upi/payment-upi.component';
+import { UploadSiteComponent } from './pages/upload-site/upload-site.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'homepage', pathMatch: 'full' },
@@ -24,7 +26,9 @@ const routes: Routes = [
   { path: 'bill-payment', component: BillPaymentComponent, canActivate: [AuthGuard]},
   { path: 'checkout', component: CheckoutComponent, canActivate: [AuthGuard]},
   { path: 'success', component: SuccessPaymentComponent, canActivate: [AuthGuard]},
-  { path: 'cancel', component: CancelPaymentComponent, canActivate: [AuthGuard]}
+  { path: 'cancel', component: CancelPaymentComponent, canActivate: [AuthGuard]},
+  { path: 'payment-upi', component: PaymentUpiComponent },
+  { path: 'upload-site', component: UploadSiteComponent }
 ];
 
 @NgModule({
@@ -32,4 +36,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 
-export class AppRoutingModule {}
+export class AppRoutingModule {};

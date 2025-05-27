@@ -11,6 +11,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class NavbarComponent implements OnInit {
   searchtext: string = '';
   isHomepage: boolean = false;
+  isSeller: boolean = false;
 
   constructor(
     private loginService: LoginService,
@@ -22,6 +23,7 @@ export class NavbarComponent implements OnInit {
     this.router.events.subscribe(() => {
       this.isHomepage = this.router.url === '/homepage';
     });
+    this.isSeller = JSON.parse(localStorage.getItem('isSeller') || 'false');
   }
 
   onSearch() {
@@ -39,5 +41,13 @@ export class NavbarComponent implements OnInit {
 
   SearchbarActive(): boolean {
     return this.router.url === '/select-location' || this.router.url === '/select-service';
+  }
+
+  navigateToSellWorkspace(): void {
+    this.router.navigate(['/sell-workspace']);
+  }
+
+  navigateToUploadSite(): void {
+    this.router.navigate(['/upload-site']);
   }
 }

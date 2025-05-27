@@ -1,0 +1,28 @@
+<div class="upload-site-container" style="max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <h1 style="text-align: center; font-family: Arial, sans-serif; color: #333;">Upload Your Site for Sale</h1>
+  <form (ngSubmit)="submitSite()" #uploadForm="ngForm" style="display: flex; flex-direction: column; gap: 15px;">
+    <div class="form-group" style="display: flex; flex-direction: column;">
+      <label for="siteName" style="font-weight: bold; margin-bottom: 5px;">Site Name</label>
+      <input type="text" id="siteName" name="siteName" [(ngModel)]="siteData.siteName" required style="padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+    </div>
+    <div class="form-group" style="display: flex; flex-direction: column;">
+      <label for="location" style="font-weight: bold; margin-bottom: 5px;">Location</label>
+      <input type="text" id="location" name="location" [(ngModel)]="siteData.location" required style="padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+    </div>
+    <div class="form-group" style="display: flex; flex-direction: column;">
+      <label for="price" style="font-weight: bold; margin-bottom: 5px;">Price</label>
+      <input type="number" id="price" name="price" [(ngModel)]="siteData.price" required style="padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+    </div>
+    <div class="form-group" style="display: flex; flex-direction: column;">
+      <label for="location" style="font-weight: bold; margin-bottom: 5px;">Service</label>
+      <input type="text" id="location" name="location" [(ngModel)]="siteData.service" required style="padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+    </div>
+    <div class="form-group" style="display: flex; flex-direction: column;">
+      <label for="image" style="font-weight: bold; margin-bottom: 5px;">Upload Image</label>
+      <input type="file" id="image" name="image" (change)="onFileSelected($event)" style="padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
+    </div>
+    <button type="submit" [disabled]="!uploadForm.valid" style="padding: 10px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">
+      Submit
+    </button>
+  </form>
+</div>

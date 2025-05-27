@@ -24,7 +24,8 @@ export class SignupComponent {
       email: [null, [Validators.required, Validators.email]],
       phoneNumber: [null, [Validators.required, Validators.pattern(/^\d{10}$/)]],
       password: [null, [Validators.required, Validators.minLength(8)]],
-      confirmPassword: [null, [Validators.required]]
+      confirmPassword: [null, [Validators.required]],
+      isSender: [false] // New field for seller checkbox
     });
   }
 
@@ -78,6 +79,9 @@ export class SignupComponent {
       else if (controls['confirmPassword'].errors?.['required']) {
         this.errorMessages.push('Confirm Password is required.');
       }
+      else if (controls['userType'].errors?.['required']) {
+        this.errorMessages.push('Please select whether you are a User or a Seller.');
+      }
 
       return;
     }
@@ -95,13 +99,20 @@ export class SignupComponent {
         lastName: this.postUsers.get('lastName')?.value,
         email: this.postUsers.get('email')?.value,
         phoneNumber: this.postUsers.get('phoneNumber')?.value,
-        password: this.postUsers.get('password')?.value
+        password: this.postUsers.get('password')?.value,
+        isSender: this.postUsers.get('isSender')?.value // Include isSeller in the request
       }
+      console.log(req);
 
       this.signupService.signupUser(req).subscribe(
+        
         (res: any) => {
           localStorage.setItem('token', res.token);
+          const formData = this.postUsers.value;
+          const isSeller = formData.isSender; // Retrieve the isSender value
+          localStorage.setItem('isSeller', JSON.stringify(isSeller)); // Store in localStorage
           this.router.navigate(['homepage']);
+          console.log(req);
         },
         (error: any) => {
           if (error.status == 409) {

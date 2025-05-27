@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "D:\\workspace-management-app\\Backend\\Workspace Management App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\interface\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\interface\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\controllers\\sitescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\controllers\\sitescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\workspace management app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\workspace management app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\interface\\site.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\interface\\site.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\interface\\rentdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\interface\\rentdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\controllers\\rentdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\controllers\\rentdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\interface\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\interface\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\interface\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\interface\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\interface\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\interface\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\interface\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\interface\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|d:\\workspace-management-app\\backend\\workspace management app\\workspace management app\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A012239-DC32-42D4-B38C-A32C310927CA}|Workspace Management App\\Workspace Management App.csproj|solutionrelative:workspace management app\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,54 +55,108 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Site.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Site.cs",
+              "RelativeDocumentMoniker": "Workspace Management App\\Interface\\Site.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Site.cs",
+              "RelativeToolTip": "Workspace Management App\\Interface\\Site.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T08:19:43.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Class.cs",
+              "RelativeDocumentMoniker": "Workspace Management App\\Interface\\Class.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Class.cs",
+              "RelativeToolTip": "Workspace Management App\\Interface\\Class.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T08:19:21.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RentDetailController.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\RentDetailController.cs",
+              "RelativeDocumentMoniker": "Workspace Management App\\Controllers\\RentDetailController.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\RentDetailController.cs",
+              "RelativeToolTip": "Workspace Management App\\Controllers\\RentDetailController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAmwEIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T08:08:09.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SitesController.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\SitesController.cs",
+              "RelativeDocumentMoniker": "Workspace Management App\\Controllers\\SitesController.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\SitesController.cs",
+              "RelativeToolTip": "Workspace Management App\\Controllers\\SitesController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwCIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T08:07:06.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Workspace Management App\\Controllers\\LoginController.cs",
               "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Workspace Management App\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAA9wFIAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T12:42:35.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Program.cs",
-              "RelativeDocumentMoniker": "Workspace Management App\\Program.cs",
-              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Program.cs",
-              "RelativeToolTip": "Workspace Management App\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T09:38:43.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RentDetail.cs",
-              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\RentDetail.cs",
-              "RelativeDocumentMoniker": "Workspace Management App\\Interface\\RentDetail.cs",
-              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\RentDetail.cs",
-              "RelativeToolTip": "Workspace Management App\\Interface\\RentDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:03:41.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Category.cs",
-              "RelativeDocumentMoniker": "Workspace Management App\\Interface\\Category.cs",
-              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Category.cs",
-              "RelativeToolTip": "Workspace Management App\\Interface\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:03:36.312Z"
+              "WhenOpened": "2025-05-26T05:57:48.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Login.cs",
+              "RelativeDocumentMoniker": "Workspace Management App\\Interface\\Login.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Login.cs",
+              "RelativeToolTip": "Workspace Management App\\Interface\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:57:43.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignupController.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\SignupController.cs",
+              "RelativeDocumentMoniker": "Workspace Management App\\Controllers\\SignupController.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\SignupController.cs",
+              "RelativeToolTip": "Workspace Management App\\Controllers\\SignupController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAA+wEwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:33:56.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Signup.cs",
+              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Signup.cs",
+              "RelativeDocumentMoniker": "Workspace Management App\\Interface\\Signup.cs",
+              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Signup.cs",
+              "RelativeToolTip": "Workspace Management App\\Interface\\Signup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:16:10.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\appsettings.json",
               "RelativeDocumentMoniker": "Workspace Management App\\appsettings.json",
@@ -111,55 +165,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-09T11:33:30.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Workspace Management App.csproj",
-              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj",
-              "RelativeDocumentMoniker": "Workspace Management App\\Workspace Management App.csproj",
-              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Workspace Management App.csproj",
-              "RelativeToolTip": "Workspace Management App\\Workspace Management App.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-09T11:10:32.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Location.cs",
-              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Location.cs",
-              "RelativeDocumentMoniker": "Workspace Management App\\Interface\\Location.cs",
-              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Interface\\Location.cs",
-              "RelativeToolTip": "Workspace Management App\\Interface\\Location.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T03:56:25.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LocationsController.cs",
-              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\LocationsController.cs",
-              "RelativeDocumentMoniker": "Workspace Management App\\Controllers\\LocationsController.cs",
-              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\LocationsController.cs",
-              "RelativeToolTip": "Workspace Management App\\Controllers\\LocationsController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAcwCwAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T03:55:49.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Workspace Management App\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\workspace-management-app\\Backend\\Workspace Management App\\Workspace Management App\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Workspace Management App\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAIBZwFAAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:22:20.221Z"
             }
           ]
         }

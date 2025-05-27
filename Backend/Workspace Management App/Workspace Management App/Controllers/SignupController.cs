@@ -67,8 +67,15 @@ namespace Workspace_Management_App.Controllers
         {
           return Conflict("Email already exists");
         }
+        bool temp = false;
 
-        await connection.ExecuteAsync("EXEC AddUser @firstName = @firstName, @lastName = @lastName, @email = @email, @phoneNumber = @phoneNumber, @password = @password", user);
+        temp = user.isSender;
+
+        await connection.ExecuteAsync(
+            "EXEC AddUser @firstName = @firstName, @lastName = @lastName, @email = @email, @phoneNumber = @phoneNumber, @password = @password, @isSender = @isSender",
+            user
+        );
+
       }
       var token = GenerateToken(user);
 

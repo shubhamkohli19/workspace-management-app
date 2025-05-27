@@ -23,6 +23,7 @@ export class LoginService {
             localStorage.setItem('token', response.token);
             localStorage.setItem('email', response.email);
             localStorage.setItem('name',  response.firstName);
+            localStorage.setItem('isSeller', JSON.stringify(response.isSender));
             this.router.navigate(['/homepage']);
           }
           observer.complete();
@@ -46,6 +47,8 @@ export class LoginService {
   logout() {
     localStorage.removeItem('token');
     localStorage.removeItem('email');
+    localStorage.removeItem('name');
+    localStorage.removeItem('isSeller'); // Remove isSeller value
     this.router.navigate(['/homepage']);
   }
 }

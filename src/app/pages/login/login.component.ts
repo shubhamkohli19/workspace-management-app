@@ -45,20 +45,22 @@ export class LoginComponent {
         this.errorMessages.push('Email is required.');
       } else if (controls['email'].errors?.['email']) {
         this.errorMessages.push('Invalid email format.');
-      }
-      else if (controls['password'].errors?.['required']) {
+      } else if (controls['password'].errors?.['required']) {
         this.errorMessages.push('Password is required.');
       }
 
       return;
-    }
-
-    else {
-      debugger;
+    } else {
       const login: Login = this.loginForm.value;
       this.loginService.login(login).subscribe(
+        (response: any) => {
+          localStorage.setItem('token', response.token);
+          localStorage.setItem('email', response.email);
+          localStorage.setItem('name', response.firstName);
+          localStorage.setItem('isSeller', JSON.stringify(response.isSender)); // Store isSeller value
+          this.router.navigate(['/homepage']);
+        },
         (errorMessage: string) => {
-          console.log(errorMessage)
           this.errorMessages.push(errorMessage);
         }
       );

@@ -7,6 +7,9 @@
     </form>
     <div class="buttons-container">
       <div class="buttons">
+        <a *ngIf="isSeller && isHomepage" routerLink="/upload-site" class="button-link">
+          <button class="navbar-button rent-button" (click)="navigateToSellWorkspace()">Sell Workspace</button>
+        </a>
         <a *ngIf="isValid() && isHomepage" routerLink="/select-service" class="button-link">
           <button class="navbar-button rent-button">Rent Workspace</button>
         </a>
